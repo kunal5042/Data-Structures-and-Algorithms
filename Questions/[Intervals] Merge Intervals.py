@@ -29,7 +29,5 @@ class Solution:
 
 # Kunal Wadhwa
 
-# LinkedIn   : https://www.linkedin.com/in/kunal5042/
-# GitHub     : https://github.com/kunal5042
 
 '''

@@ -43,9 +43,5 @@ class Solution:
 
 # Kunal Wadhwa
 
-# GitHub     : https://github.com/kunal5042
-# LeetCode   : https://leetcode.com/kunal5042/
-# HackerRank : https://www.hackerrank.com/kunalwadhwa_cs
-# LinkedIn   : https://www.linkedin.com/in/kunal5042/
 
 '''
