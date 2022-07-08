@@ -1,7 +1,7 @@
 # Question: https://leetcode.com/problems/valid-sudoku
 
 from typing import Optional, List
-import collections
+
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
         board_map = collections.defaultdict(list)
