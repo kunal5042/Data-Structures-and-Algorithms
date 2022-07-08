@@ -1,5 +1,5 @@
 ![cover image](https://github.com/kunal5042/LeetCode/blob/main/Images/leetcode.jpeg)
-[![Active](http://img.shields.io/badge/Status-Active-green.svg)](https://github.com/kunal5042/AlgoExpert)
+[![Active](http://img.shields.io/badge/Status-Active-green.svg)](https://github.com/kunal5042/LeetCode)
 [![Generic badge](https://img.shields.io/badge/lang-python-yellow.svg)](https://www.python.org/)
 | Q No.| Topic | Question | Solution |
 | :------: | ----------------- | :--------: | :---------: |
