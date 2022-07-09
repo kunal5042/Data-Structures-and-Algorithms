@@ -29,8 +29,8 @@
 |24|BFS|[ Number Of Islands](https://leetcode.com/problems/number-of-islands)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[BFS]%20Number%20Of%20Islands.py)|
 |25|BFS|[ Populating Next Right Pointers In Each Node Ii](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[BFS]%20Populating%20Next%20Right%20Pointers%20In%20Each%20Node%20Ii.py)|
 |26|Backtracking|[ Letter Combinations Of A Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Backtracking]%20Letter%20Combinations%20Of%20A%20Phone%20Number.py)|
-|27|Backtracking|[ Permutations](https://leetcode.com/problems/permutations)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Backtracking]%20Permutations.py)|
-|28|Backtracking|[ Submissions](https://leetcode.com/problems/permutations-ii/submissions)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Backtracking]%20Submissions.py)|
+|27|Backtracking|[ Permutations Ii](https://leetcode.com/problems/permutations-ii)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Backtracking]%20Permutations%20Ii.py)|
+|28|Backtracking|[ Permutations](https://leetcode.com/problems/permutations)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Backtracking]%20Permutations.py)|
 |29|Backtracking|[ Word Search](https://leetcode.com/problems/word-search)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Backtracking]%20Word%20Search.py)|
 |30|Binary Search|[ Find Peak Element](https://leetcode.com/problems/find-peak-element)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Binary%20Search]%20Find%20Peak%20Element.py)|
 |31|Binary Search|[ Median of Two Sorted Arrays*](https://leetcode.com/problems/median-of-two-sorted-arrays)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Binary%20Search]%20Median%20of%20Two%20Sorted%20Arrays*.py)|
