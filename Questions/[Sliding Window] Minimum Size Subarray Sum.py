@@ -11,7 +11,6 @@ class Solution:
         if nums[0] >= target: return 1
         
         start, end = 0, 1
-        length = 1
         subarray_sum = nums[start]
         result = float('inf')
 
