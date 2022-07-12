@@ -8,45 +8,44 @@ class TreeNode:
         self.val = val
         self.left = left
         self.right = right
-        
+
 class Solution:
-    def pathSum(self, root: Optional[TreeNode], targetSum: int) -> List[List[int]]:
-        result = []
-        
-        def helper(node, running_sum, target_sum, path):
-            if node is None: return
-            
-            running_sum += node.val
-            if running_sum == target_sum and not node.left and not node.right:
-                result.append(path + [node.val])
+    # O(n) Time and O(n) Space: where n is the length of the input array
+    def pathSum(self, root: Optional[TreeNode], target_sum: int) -> List[List[int]]:
+        """ Takes in an object of TreeNode and an integer target sum
+        Returns a list of every path from the node object to the leaf where path sum 
+        equals target sum
+        """
+        paths = []
+
+        def depth_first_search(node, path, path_sum):
+            if not node: return
+            if not node.left and not node.right:
+                if path_sum + node.val == target_sum:
+                    path.append(node.val)
+                    paths.append(path.copy())
+                    path.pop()
                 return
-            
-            helper(node.left , running_sum, target_sum, path + [node.val])
-            helper(node.right, running_sum, target_sum, path + [node.val])
-            
-            return
-        
-        def backtrack(node, path, target_sum):
-            if node is None: return
-            
+
             path.append(node.val)
-            
-            if not node.left and not node.right and target_sum - node.val == 0:
-                result.append(path.copy())
-                path.pop()
-                return
-            
-            backtrack(node.left , path, target_sum-node.val)
-            backtrack(node.right, path, target_sum-node.val)
-            
+            depth_first_search(node.left , path, path_sum + node.val)
+            depth_first_search(node.right, path, path_sum + node.val)
             path.pop()
+
             return
-        
-        backtrack(root, [], targetSum)
-        return result
+
+        depth_first_search(root, [], 0)
+        return paths
+
+        """ Algorithm:
+        Explore every path from root to leaf while keeping track of the path sum
+        When a leaf is encountered
+        if path sum equals target sum
+            - Add the current path to the result
+        backtrack and explore remaining paths till the entire tree is explored
+        """
 '''
 
 # Kunal Wadhwa
-
 
 '''
