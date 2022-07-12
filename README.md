@@ -114,5 +114,6 @@
 |109|Two Pointers|[ Remove Element](https://leetcode.com/problems/remove-element)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Two%20Pointers]%20Remove%20Element.py)|
 |110|Two Pointers|[ Search Insert Position](https://leetcode.com/problems/search-insert-position)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Two%20Pointers]%20Search%20Insert%20Position.py)|
 |111|Two Pointers|[ Sort Colors](https://leetcode.com/problems/sort-colors/submissions)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Two%20Pointers]%20Sort%20Colors.py)|
-|112|Two Pointers|[ Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Two%20Pointers]%20Subarray%20Product%20Less%20Than%20K.py)|
-|113|Two Pointers|[ Two Sum](https://leetcode.com/problems/two-sum)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Two%20Pointers]%20Two%20Sum.py)|
+|112|Two Pointers|[ Squares Of A Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Two%20Pointers]%20Squares%20Of%20A%20Sorted%20Array.py)|
+|113|Two Pointers|[ Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Two%20Pointers]%20Subarray%20Product%20Less%20Than%20K.py)|
+|114|Two Pointers|[ Two Sum](https://leetcode.com/problems/two-sum)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Two%20Pointers]%20Two%20Sum.py)|
