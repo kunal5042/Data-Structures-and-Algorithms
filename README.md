@@ -129,4 +129,5 @@
 |124|Two Pointers|[ Sort Colors](https://leetcode.com/problems/sort-colors/submissions)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Two%20Pointers]%20Sort%20Colors.py)|
 |125|Two Pointers|[ Squares Of A Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Two%20Pointers]%20Squares%20Of%20A%20Sorted%20Array.py)|
 |126|Two Pointers|[ Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Two%20Pointers]%20Subarray%20Product%20Less%20Than%20K.py)|
-|127|Two Pointers|[ Two Sum](https://leetcode.com/problems/two-sum)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Two%20Pointers]%20Two%20Sum.py)|
+|127|Two Pointers|[ Two Sum Ii Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Two%20Pointers]%20Two%20Sum%20Ii%20Input%20Array%20Is%20Sorted.py)|
+|128|Two Pointers|[ Two Sum](https://leetcode.com/problems/two-sum)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Two%20Pointers]%20Two%20Sum.py)|
