@@ -1,5 +1,7 @@
 # Question: https://leetcode.com/problems/find-the-duplicate-number/
 
+from typing import Optional, List
+
 class Solution:
     def findDuplicate(self, nums: List[int]) -> int:
         # PigeonHole Principle
@@ -38,4 +40,8 @@ class Solution:
         # return the duplicate element
         return tortoise
 
+'''
+
 # Kunal Wadhwa
+
+'''
