@@ -10,7 +10,6 @@ class Solution:
                 nums[overwrite_index] = nums[idx]
                 overwrite_index += 1
         return overwrite_index
-# Question: https://leetcode.com/problems/remove-element/
 
 class Solution:
     def removeElement(self, nums, val) -> int:
@@ -33,7 +32,6 @@ class Solution:
         
         return left
     
-# Kunal Wadhwa
 '''
 
 # Kunal Wadhwa
