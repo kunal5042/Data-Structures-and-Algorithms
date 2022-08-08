@@ -3,6 +3,7 @@
 from typing import Optional, List
 
 class Solution:
+    # O(n) Time and O(1) Space
     def minAddToMakeValid(self, s: str) -> int:
         open_required  = 0
         open_available = 0
