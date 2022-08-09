@@ -1,6 +1,7 @@
 # Question: https://leetcode.com/problems/advantage-shuffle/
 
 from typing import Optional, List
+from collections import defaultdict
 
 class Solution:
     # O(n*log(n)) Time and O(n) Space
