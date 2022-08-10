@@ -16,7 +16,7 @@ class Node:
         return self.label < other_node.label
         
     def __str__(self):
-        return str(node.label)
+        return str(self.label)
     
     
 class Graph:
