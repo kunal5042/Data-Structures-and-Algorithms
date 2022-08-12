@@ -29,9 +29,8 @@ class GridToGraph:
         """Creates a node object for every cell in the grid"""
         for row in range(self.HEIGHT):
             for col in range(self.WIDTH):
-                value = grid[row][col]
-                coord = (row, col)
-                self.nodes[coord] = Node(row, col, value)
+                val = grid[row][col]
+                self.nodes[(row, col)] = Node(row, col, val)
     
     def build_graph(self) -> 'Node':
         """Adds edges among nodes"""
