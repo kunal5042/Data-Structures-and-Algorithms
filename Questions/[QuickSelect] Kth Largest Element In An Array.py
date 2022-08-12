@@ -2,92 +2,6 @@
 
 from typing import Optional, List
 
-# Max Heap Implementation
-class MaxHeap:
-    def __init__(self, array=list()):
-        self.heap = array
-        self.heapify(array)
-        
-    # Builds Heap in O(n) Time
-    def heapify(self, array):
-        # -2 because we want first parent index and not it's position
-        first_parent = (len(array) - 2) // 2
-        
-        # reversed because, that will lead to O(n) Time
-        # Because, as we go up the parent nodes and sift them down
-        # the subtrees will already follow the maxheap property
-        for current_idx in reversed(range(first_parent+1)):
-            self.sift_down(current_idx)
-            
-    # sift the last node up to it's correct position
-    # O(log(n))
-    def sift_up(self):
-        child_idx   = len(self.heap)-1
-        parent_idx  = (len(self.heap)-1)//2
-        
-        # as long as parent idx is greater than or equal to root
-        # we can check
-        while parent_idx >= 0:
-            if self.heap[parent_idx] < self.heap[child_idx]:
-                self.swap(parent_idx, child_idx)
-                child_idx   = parent_idx
-                parent_idx  = (child_idx-1)//2
-            else:
-                break
-                
-    # sifts the given node index down to it's correct position
-    # O(log(n))
-    def sift_down(self, node_idx):
-        endidx      = len(self.heap)-1
-        child_one   = (2 * node_idx ) + 1
-        
-        while child_one <= endidx:
-            child_two = (2 * node_idx) + 2 if (2 * node_idx) + 2 <= endidx else None
-            
-            if child_two is not None:
-                if self.heap[child_one] > self.heap[child_two]:
-                    to_compare_with = child_one
-                else:
-                    to_compare_with = child_two
-            else:
-                to_compare_with = child_one
-                
-            if self.heap[node_idx] < self.heap[to_compare_with]:
-                self.swap(node_idx, to_compare_with)
-                node_idx    = to_compare_with
-                child_one   = (2 * node_idx) + 1
-            else:
-                break
-                
-    # get the largest element
-    def peek(self):
-        return self.heap[0]
-    
-    # remove and retrieve the largest element
-    def remove(self):
-        self.swap(0, len(self.heap)-1)
-        maximum_ele = self.heap.pop()
-        self.sift_down(0)
-        return maximum_ele
-    
-    # insert into heap
-    def insert(self, value):
-        self.heap.append(value)
-        self.sift_up()
-        
-    # helper function
-    def swap(self, x, y):
-        self.heap[x], self.heap[y] = self.heap[y], self.heap[x]
-        
-    # returns heap in string format
-    def __str__(self):
-        return str(self.heap)
-    
-    # returns the length of the heap
-    def __len__(self):
-        return len(self.heap)
-    
-    
 # Quick Select Implementation
 class QuickSelect:
     def __init__(self, array, position):
@@ -161,15 +75,4 @@ class Solution:
         
         return QuickSelect(nums, k).selected
         
-    # Using Max Heap
-    # O(n) Time (Average) and O(n) Space
-    def findKthLargest_heap(self, nums: List[int], k: int) -> int:
-        heap = MaxHeap(nums)
-        
-        for _ in range(k-1):
-            heap.remove()
-            
-        return heap.remove()
-        
-
 # Kunal Wadhwa
