@@ -17,14 +17,11 @@ class Solution:
         
         slow = fast = n
         
-        slow_not_equal_to_fast = True
-        
-        while slow_not_equal_to_fast:
+        while True:
             slow = sum_of_digits_squared(slow)
             fast = sum_of_digits_squared(fast)
             fast = sum_of_digits_squared(fast)
-            if slow == fast:
-                slow_not_equal_to_fast = False
+            if slow == fast: break
             
         if slow == 1: return True
         return False
