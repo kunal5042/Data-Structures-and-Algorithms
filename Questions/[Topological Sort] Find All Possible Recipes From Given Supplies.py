@@ -3,18 +3,18 @@
 from typing import Optional, List
 
 class Node:
-    def __init__(self, label):
+    def __init__(self, label: 'str') -> 'Node':
         self.name = label
         self.dependencies  = set()
         
-    def add_dependency(self, other_node):
+    def add_dependency(self, other_node: 'Node'):
         self.dependencies.add(other_node)
         
-    def __lt__(self, other_node):
+    def __lt__(self, other_node: 'Node'):
         len(self.dependencies) < other_node.dependencies
         
 class CustomGraph:
-    def __init__(self, recipes, ingredients, supplies):
+    def __init__(self, recipes: 'List[str]', ingredients: 'List[List[str]]', supplies: 'List[str]') -> 'CustomGraph':
         self.nodes = {}
         self.cannot_make_these_because_of_unkown_ingredient = set()
         self.initialize_nodes(recipes, supplies)
@@ -25,7 +25,7 @@ class CustomGraph:
             self.nodes[ingredient] = Node(ingredient)
         for recipe_name in recipes: self.nodes[recipe_name] = Node(recipe_name)
     
-    def build_graph(self, recipes, ingredients):
+    def build_graph(self, recipes: 'List[str]', ingredients: 'List[List[str]]'):
         for recipe_name, ingredients_required in zip(recipes, ingredients):
             for ingredient in ingredients_required:
                 if ingredient not in self.nodes:
@@ -33,7 +33,8 @@ class CustomGraph:
                     break
                 self.nodes[recipe_name].add_dependency(self.nodes[ingredient])
                     
-    def can_make(self, recipe):
+    def can_make(self, recipe: 'str') -> 'bool':
+        """Returns true if dependencies for making this recipe can be met successfully"""
         callstack = set()
         visited  = set()
         
@@ -55,7 +56,8 @@ class CustomGraph:
         
         return helper(self.nodes[recipe])
     
-    def get_recipes_we_can_make(self, recipes):
+    def get_recipes_we_can_make(self, recipes: 'List[str]') -> 'List[str]':
+        """Returns a list of recipes we can successfully make"""
         result  = []
         for recipe in recipes:
             if recipe in self.cannot_make_these_because_of_unkown_ingredient:
