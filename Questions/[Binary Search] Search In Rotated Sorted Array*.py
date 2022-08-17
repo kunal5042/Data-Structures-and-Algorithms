@@ -1,4 +1,4 @@
-# Question: https://leetcode.com/problems/search-in-rotated-sorted-array*/
+# Question: https://leetcode.com/problems/search-in-rotated-sorted-array/
 
 from typing import Optional, List
 

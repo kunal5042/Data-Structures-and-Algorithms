@@ -1,4 +1,4 @@
-# Question: https://leetcode.com/problems/evaluate-division*/
+# Question: https://leetcode.com/problems/evaluate-division/
 
 from typing import Optional, List
 

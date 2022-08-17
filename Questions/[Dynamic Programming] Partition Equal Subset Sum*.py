@@ -1,4 +1,4 @@
-# Question: https://leetcode.com/problems/partition-equal-subset-sum*/
+# Question: https://leetcode.com/problems/partition-equal-subset-sum/
 
 from typing import Optional, List
 

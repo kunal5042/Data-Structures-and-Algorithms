@@ -1,4 +1,4 @@
-# Question: https://leetcode.com/problems/remove-k-digits*/
+# Question: https://leetcode.com/problems/remove-k-digits/
 
 from typing import Optional, List
 

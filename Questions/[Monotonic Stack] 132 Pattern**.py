@@ -1,4 +1,4 @@
-# Question: https://leetcode.com/problems/132-pattern**/
+# Question: https://leetcode.com/problems/132-pattern/
 
 from typing import Optional, List
 

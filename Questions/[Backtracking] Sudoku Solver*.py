@@ -1,4 +1,4 @@
-# Question: https://leetcode.com/problems/sudoku-solver*/
+# Question: https://leetcode.com/problems/sudoku-solver/
 
 from typing import Optional, List
 

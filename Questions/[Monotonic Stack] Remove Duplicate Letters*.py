@@ -1,4 +1,4 @@
-# Question: https://leetcode.com/problems/remove-duplicate-letters*/
+# Question: https://leetcode.com/problems/remove-duplicate-letters/
 
 from typing import Optional, List
 

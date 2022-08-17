@@ -1,4 +1,4 @@
-# Question: https://leetcode.com/problems/sum-of-subarray-ranges**/
+# Question: https://leetcode.com/problems/sum-of-subarray-ranges/
 
 from typing import Optional, List
 

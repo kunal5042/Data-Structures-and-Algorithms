@@ -1,4 +1,4 @@
-# Question: https://leetcode.com/problems/possible-bipartition*/
+# Question: https://leetcode.com/problems/possible-bipartition/
 
 from typing import Optional, List
 
