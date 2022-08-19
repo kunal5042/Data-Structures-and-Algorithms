@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/surrounded-regions/
-
+# Medium
 from typing import Optional, List
 
 from collections import deque

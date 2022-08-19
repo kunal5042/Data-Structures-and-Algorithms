@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/rotting-oranges/
-
+# Medium
 from typing import Optional, List
 
 class Solution:
