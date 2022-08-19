@@ -1,4 +1,5 @@
 # Question: https://leetcode.com/problems/all-paths-from-source-to-target/
+# Medium
 
 from typing import Optional, List
 
@@ -30,6 +31,7 @@ class Solution:
         dest   = _graph.nodes[len(graph)-1]
         paths = []
         
+        # depth first search and backtracking
         def find_paths(path, node):
             if node == dest:
                 paths.append(path.copy())

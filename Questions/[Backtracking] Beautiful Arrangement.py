@@ -1,4 +1,5 @@
 # Question: https://leetcode.com/problems/beautiful-arrangement/
+# Medium
 
 from typing import Optional, List
 

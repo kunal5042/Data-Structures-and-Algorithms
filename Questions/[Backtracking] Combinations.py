@@ -1,8 +1,10 @@
 # Question: https://leetcode.com/problems/combinations/
+# Medium
 
 from typing import Optional, List
 
 class Solution:
+    # O(k (n choose k)) Time
     def combine(self, n: int, k: int) -> List[List[int]]:
         nums   = list(range(1, n+1))
         result = []
@@ -12,6 +14,7 @@ class Solution:
                 result.append(this_combination.copy())
                 return
             
+            # we'll not proceed further
             if choose >= len(nums):
                 return
             
