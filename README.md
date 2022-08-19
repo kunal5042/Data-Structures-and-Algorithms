@@ -139,7 +139,7 @@
 |134| |Greedy|[ Non Overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Greedy]%20Non%20Overlapping%20Intervals.py)|
 |135| |Greedy|[ Remove K Digits*](https://leetcode.com/problems/remove-k-digits)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Greedy]%20Remove%20K%20Digits*.py)|
 |136| |Greedy|[ Score After Flipping Matrix](https://leetcode.com/problems/score-after-flipping-matrix)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Greedy]%20Score%20After%20Flipping%20Matrix.py)|
-|137| |Greedy|[ Split Array Into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Greedy]%20Split%20Array%20Into%20Consecutive%20Subsequences.py)|
+|137|Medium|Greedy|[ Split Array Into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Greedy]%20Split%20Array%20Into%20Consecutive%20Subsequences.py)|
 |138| |Hash|[ Bulls And Cows](https://leetcode.com/problems/bulls-and-cows)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Hash]%20Bulls%20And%20Cows.py)|
 |139| |Hash|[ Contiguous Array - Equal 0s and 1s in BA](https://leetcode.com/problems/contiguous-array)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Hash]%20Contiguous%20Array%20-%20Equal%200s%20and%201s%20in%20BA.py)|
 |140| |Hash|[ Group Anagrams](https://leetcode.com/problems/group-anagrams)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Hash]%20Group%20Anagrams.py)|

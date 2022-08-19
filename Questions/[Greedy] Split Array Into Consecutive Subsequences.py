@@ -1,5 +1,4 @@
 # Question: https://leetcode.com/problems/split-array-into-consecutive-subsequences/
-
 # Medium
 
 from typing import Optional, List
