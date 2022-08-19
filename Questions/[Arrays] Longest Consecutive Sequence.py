@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/longest-consecutive-sequence/
-
+# Medium
 from typing import Optional, List
 
 class Solution:

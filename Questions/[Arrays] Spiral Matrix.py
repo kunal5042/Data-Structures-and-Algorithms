@@ -1,5 +1,5 @@
 # Questions: https://leetcode.com/problems/spiral-matrix/
-
+# Medium
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
         

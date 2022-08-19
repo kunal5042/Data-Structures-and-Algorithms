@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/rotate-image/
-
+# Medium
 class Solution:
     def rotate(self, matrix):
         """

@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
-
+# Easy
 class Solution:
     def removeDuplicates(self, nums):
         distinct_idx = 0

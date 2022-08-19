@@ -1,10 +1,10 @@
 # Question: https://leetcode.com/problems/valid-sudoku
-
+# Medium
 from typing import Optional, List
-
+from collections import defaultdict
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
-        board_map = collections.defaultdict(list)
+        board_map = defaultdict(list)
         for x in range(9):
             for y in range(9):
                 char = board[x][y]

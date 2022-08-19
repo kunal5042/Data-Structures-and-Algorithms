@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/counting-bits/
-
+# Easy
 from typing import Optional, List
 
 class Solution:

@@ -1,6 +1,10 @@
 # Question: https://leetcode.com/problems/find-all-duplicates-in-an-array/
+# Medium
+
+from typing import List, Optional
 
 class Solution:
+    # O(n) Time and O(1) Space
     def findDuplicates(self, nums: List[int]) -> List[int]:
         result = list()
         

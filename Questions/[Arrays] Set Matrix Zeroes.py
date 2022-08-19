@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/set-matrix-zeroes/
-
+# Medium
+from typing import List, Optional
 class Solution:
     def setZeroes(self, matrix: List[List[int]]) -> None:
         """

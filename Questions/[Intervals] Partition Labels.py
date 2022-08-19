@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/partition-labels/
-
+# Medium
 from typing import Optional, List
 
 class Solution:

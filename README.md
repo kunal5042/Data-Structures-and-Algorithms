@@ -3,21 +3,21 @@
 [![Generic badge](https://img.shields.io/badge/lang-python-yellow.svg)](https://www.python.org/)
 | Q No.| Difficulty | Category | Question | Solution |
 | :------: | --------- | ----------------- | :--------: | :---------: |
-|01| |Arrays|[ Beautiful Array](https://leetcode.com/problems/beautiful-array)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Beautiful%20Array.py)|
-|02| |Arrays|[ Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Convert%201D%20Array%20Into%202D%20Array.py)|
-|03| |Arrays|[ Equal Row And Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Equal%20Row%20And%20Column%20Pairs.py)|
-|04| |Arrays|[ Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Find%20All%20Duplicates%20in%20an%20Array.py)|
-|05| |Arrays|[ Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Longest%20Consecutive%20Sequence.py)|
-|06| |Arrays|[ Maximum Subarray](https://leetcode.com/problems/maximum-subarray)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Maximum%20Subarray.py)|
-|07| |Arrays|[ Product of Arrays Except Self](https://leetcode.com/problems/product-of-array-except-self)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Product%20of%20Arrays%20Except%20Self.py)|
-|08| |Arrays|[ Remove Duplicates](https://leetcode.com/problems/remove-duplicates-from-sorted-array)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Remove%20Duplicates.py)|
-|09| |Arrays|[ Remove One Element To Make The Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Remove%20One%20Element%20To%20Make%20The%20Array%20Strictly%20Increasing.py)|
-|10| |Arrays|[ Rotate Image](https://leetcode.com/problems/rotate-image)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Rotate%20Image.py)|
-|11| |Arrays|[ Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Set%20Matrix%20Zeroes.py)|
-|12| |Arrays|[ Spiral Matrix](https://leetcode.com/problems/spiral-matrix)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Spiral%20Matrix.py)|
-|13| |Arrays|[ Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Top%20K%20Frequent%20Elements.py)|
-|14| |Arrays|[ Two Sum](https://leetcode.com/problems/two-sum)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Two%20Sum.py)|
-|15| |Arrays|[ Valid Sudoku](https://leetcode.com/problems/valid-sudok)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Valid%20Sudoku.py)|
+|01|Medium|Arrays|[ Beautiful Array](https://leetcode.com/problems/beautiful-array)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Beautiful%20Array.py)|
+|02|Easy|Arrays|[ Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Convert%201D%20Array%20Into%202D%20Array.py)|
+|03|Medium|Arrays|[ Equal Row And Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Equal%20Row%20And%20Column%20Pairs.py)|
+|04|Medium|Arrays|[ Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Find%20All%20Duplicates%20in%20an%20Array.py)|
+|05|Medium|Arrays|[ Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Longest%20Consecutive%20Sequence.py)|
+|06|Medium|Arrays|[ Maximum Subarray](https://leetcode.com/problems/maximum-subarray)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Maximum%20Subarray.py)|
+|07|Medium|Arrays|[ Product of Arrays Except Self](https://leetcode.com/problems/product-of-array-except-self)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Product%20of%20Arrays%20Except%20Self.py)|
+|08|Easy|Arrays|[ Remove Duplicates](https://leetcode.com/problems/remove-duplicates-from-sorted-array)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Remove%20Duplicates.py)|
+|09|Easy|Arrays|[ Remove One Element To Make The Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Remove%20One%20Element%20To%20Make%20The%20Array%20Strictly%20Increasing.py)|
+|10|Medium|Arrays|[ Rotate Image](https://leetcode.com/problems/rotate-image)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Rotate%20Image.py)|
+|11|Medium|Arrays|[ Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Set%20Matrix%20Zeroes.py)|
+|12|Medium|Arrays|[ Spiral Matrix](https://leetcode.com/problems/spiral-matrix)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Spiral%20Matrix.py)|
+|13|Medium|Arrays|[ Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Top%20K%20Frequent%20Elements.py)|
+|14|Easy|Arrays|[ Two Sum](https://leetcode.com/problems/two-sum)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Two%20Sum.py)|
+|15|Medium|Arrays|[ Valid Sudoku](https://leetcode.com/problems/valid-sudok)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Valid%20Sudoku.py)|
 |16| |BFS|[ All Nodes Distance K In Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[BFS]%20All%20Nodes%20Distance%20K%20In%20Binary%20Tree.py)|
 |17| |BFS|[ Average Of Levels In Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[BFS]%20Average%20Of%20Levels%20In%20Binary%20Tree.py)|
 |18| |BFS|[ Binary Tree Level Order Traversal Ii](https://leetcode.com/problems/binary-tree-level-order-traversal-ii)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[BFS]%20Binary%20Tree%20Level%20Order%20Traversal%20Ii.py)|
@@ -61,10 +61,10 @@
 |56| |Binary Search|[ Search Insert Position](https://leetcode.com/problems/search-insert-position)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Binary%20Search]%20Search%20Insert%20Position.py)|
 |57| |Binary Tree|[ Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Binary%20Tree]%20Balanced%20Binary%20Tree.py)|
 |58| |Binary Tree|[ Flatten Binary Tree To Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Binary%20Tree]%20Flatten%20Binary%20Tree%20To%20Linked%20List.py)|
-|59| |Bit Manipulation|[ Counting Bits](https://leetcode.com/problems/counting-bits)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Bit%20Manipulation]%20Counting%20Bits.py)|
-|60| |Bit Manipulation|[ Missing Number](https://leetcode.com/problems/missing-number)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Bit%20Manipulation]%20Missing%20Number.py)|
-|61| |Bit Manipulation|[ Reverse Integer](https://leetcode.com/problems/reverse-integer)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Bit%20Manipulation]%20Reverse%20Integer.py)|
-|62| |Bit Manipulation|[ Single Number](https://leetcode.com/problems/single-number)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Bit%20Manipulation]%20Single%20Number.py)|
+|59|Easy|Bit Manipulation|[ Counting Bits](https://leetcode.com/problems/counting-bits)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Bit%20Manipulation]%20Counting%20Bits.py)|
+|60|Easy|Bit Manipulation|[ Missing Number](https://leetcode.com/problems/missing-number)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Bit%20Manipulation]%20Missing%20Number.py)|
+|61|Medium|Bit Manipulation|[ Reverse Integer](https://leetcode.com/problems/reverse-integer)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Bit%20Manipulation]%20Reverse%20Integer.py)|
+|62|Easy|Bit Manipulation|[ Single Number](https://leetcode.com/problems/single-number)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Bit%20Manipulation]%20Single%20Number.py)|
 |63| |Bucket-Sort|[ Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Bucket-Sort]%20Top%20K%20Frequent%20Elements.py)|
 |64| |DFS|[ All Nodes Distance K In Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[DFS]%20All%20Nodes%20Distance%20K%20In%20Binary%20Tree.py)|
 |65| |DFS|[ Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[DFS]%20Balanced%20Binary%20Tree.py)|
@@ -160,7 +160,7 @@
 |155| |Intervals|[ Insert Interval](https://leetcode.com/problems/insert-interval)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Intervals]%20Insert%20Interval.py)|
 |156| |Intervals|[ Merge Intervals](https://leetcode.com/problems/merge-intervals)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Intervals]%20Merge%20Intervals.py)|
 |157| |Intervals|[ Non Overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Intervals]%20Non%20Overlapping%20Intervals.py)|
-|158| |Intervals|[ Partition Labels](https://leetcode.com/problems/partition-labels)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Intervals]%20Partition%20Labels.py)|
+|158|Medium|Intervals|[ Partition Labels](https://leetcode.com/problems/partition-labels)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Intervals]%20Partition%20Labels.py)|
 |159| |Linked List|[ Add Two Numbers](https://leetcode.com/problems/add-two-numbers)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Linked%20List]%20Add%20Two%20Numbers.py)|
 |160| |Linked List|[ Copy List With Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Linked%20List]%20Copy%20List%20With%20Random%20Pointer.py)|
 |161| |Linked List|[ Delete Node without Head](https://leetcode.com/problems/delete-node-in-a-linked-list/submissions)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Linked%20List]%20Delete%20Node%20without%20Head.py)|

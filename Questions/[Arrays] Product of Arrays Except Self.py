@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/product-of-array-except-self/
-
+# Medium
 class Solution:
     def productExceptSelf(self, nums):
         result = [1 for _ in range(len(nums))]

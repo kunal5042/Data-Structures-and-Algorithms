@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/beautiful-array/
-
+# Medium
 from typing import Optional, List
 
 class Solution:

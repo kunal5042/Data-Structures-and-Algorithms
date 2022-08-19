@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/missing-number/
-
+# Easy
 from typing import Optional, List
 
 class Solution:
