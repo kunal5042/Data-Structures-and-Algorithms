@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/shortest-unsorted-continuous-subarray/
-
+# Medium
 from typing import Optional, List
 
 class Solution:

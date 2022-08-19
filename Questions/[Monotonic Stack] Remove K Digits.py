@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/remove-k-digits/
-
+# Medium
 from typing import Optional, List
 
 class Solution:

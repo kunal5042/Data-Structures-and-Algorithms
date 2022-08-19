@@ -1,5 +1,5 @@
-#Question: https://leetcode.com/problems/maximum-subarray/
-
+# Question: https://leetcode.com/problems/maximum-subarray/
+# Medium
 class Solution:
     # O(n) Time and O(1) Space
     def maxSubArray(self, nums):

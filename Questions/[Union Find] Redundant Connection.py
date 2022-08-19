@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/redundant-connection/
-
+# Medium
 from typing import Optional, List
 
 class Node:

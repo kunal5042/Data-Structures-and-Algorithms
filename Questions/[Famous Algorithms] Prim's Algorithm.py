@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/min-cost-to-connect-all-points/
-
+# Medium
 from typing import Optional, List
 
 from heapq import heapify as heap, heappop as hpop, heappush as hpush

@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/
-
+# Medium
 from typing import Optional, List
 
 class Node:

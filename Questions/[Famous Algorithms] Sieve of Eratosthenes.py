@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/count-primes/submissions/
-
+# Medium
 from typing import Optional, List
 
 class Solution:

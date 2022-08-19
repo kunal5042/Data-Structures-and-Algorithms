@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/sum-of-subarray-ranges/
-
+# Medium
 from typing import Optional, List
 
 class Stack:

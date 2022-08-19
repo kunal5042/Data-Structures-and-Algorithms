@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/132-pattern/
-
+# Medium
 from typing import Optional, List
 
 import math

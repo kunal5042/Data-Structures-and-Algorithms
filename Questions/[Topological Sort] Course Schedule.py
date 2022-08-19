@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/course-schedule/
-
+# Medium
 from typing import Optional, List
 
 class Node:

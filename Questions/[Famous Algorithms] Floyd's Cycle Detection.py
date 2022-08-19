@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/find-the-duplicate-number/
-
+# Medium
 from typing import Optional, List
 
 class Solution:

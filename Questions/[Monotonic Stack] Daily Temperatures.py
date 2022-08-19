@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/daily-temperatures/
-
+# Medium
 from typing import Optional, List
 
 class Solution:

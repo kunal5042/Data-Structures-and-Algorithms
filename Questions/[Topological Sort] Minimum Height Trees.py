@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/minimum-height-trees/
-
+# Medium
 from typing import Optional, List
 
 class Solution:

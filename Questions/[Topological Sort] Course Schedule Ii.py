@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/course-schedule-ii/
-
+# Medium
 from typing import Optional, List
 
 from typing import List
