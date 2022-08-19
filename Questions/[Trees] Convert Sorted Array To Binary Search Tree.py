@@ -1,5 +1,4 @@
 # Question: https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
-
 # Easy
 from typing import Optional, List
 
