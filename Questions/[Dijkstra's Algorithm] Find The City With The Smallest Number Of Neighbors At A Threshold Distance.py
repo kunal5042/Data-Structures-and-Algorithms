@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/
-
+# Medium
+# Find shortest path from every city to all other cities.
 from typing import Optional, List
 
 from heapq import heapify, heappop, heappush

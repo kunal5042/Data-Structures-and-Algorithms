@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/path-with-maximum-probability/
-
+# Medium
+# -ve of weights equals to longest path, we can multiply weights
 from typing import Optional, List
 
 from heapq import heapify, heappop, heappush
@@ -18,7 +19,7 @@ class Node:
         
     def __str__(self):
         """Returns the label of the node as a string"""
-        return str(node.label)
+        return str(self.label)
     
     
 class Graph:

@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/cheapest-flights-within-k-stops/
-
+# Medium
+# Shortest path with an added constraint of max hops/nodes
 from typing import Optional, List
 
 from heapq import heapify, heappop, heappush

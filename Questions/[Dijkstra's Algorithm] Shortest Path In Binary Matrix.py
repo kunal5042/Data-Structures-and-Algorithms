@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/shortest-path-in-binary-matrix/
-
+# Medium
+# Finding the intuition wasn't that simple
 from typing import Optional, List
 
 from heapq import heapify as heap, heappop as pop, heappush as push  

@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/
-
+# Medium
+# Use dp to compute the number of ways we can reach a node.
 from typing import Optional, List
 
 from heapq import heapify, heappop, heappush

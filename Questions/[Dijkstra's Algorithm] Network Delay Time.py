@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/network-delay-time/
-
+# Medium
+# Time to the farthest node if it's reachable from source else -1
 from typing import Optional, List
 
 class Node:

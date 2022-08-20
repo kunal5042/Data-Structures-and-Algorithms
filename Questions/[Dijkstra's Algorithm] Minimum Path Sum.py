@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/minimum-path-sum/
-
+# Medium
+# Represents cells of the grid as nodes of the graph and find the shortest path from the top left to the bottom right node
 from typing import Optional, List
 
 from heapq import heappop, heappush, heapify

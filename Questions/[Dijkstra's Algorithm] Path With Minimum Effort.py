@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/path-with-minimum-effort/
-
+# Medium
+# Convert grid into graph!
 from typing import Optional, List
 
 from heapq import heapify, heappop, heappush
