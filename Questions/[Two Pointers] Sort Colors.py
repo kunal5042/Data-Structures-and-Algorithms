@@ -1,5 +1,6 @@
-# Question: https://leetcode.com/problems/sort-colors/submissions/
-
+# Question: https://leetcode.com/problems/sort-colors/
+# Medium
+# Overwrite
 from collections import Counter
 class Solution:
     def sortColors(self, nums) -> None:

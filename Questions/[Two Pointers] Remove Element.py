@@ -1,8 +1,10 @@
 # Question: https://leetcode.com/problems/remove-element/
-
+# Easy
+# Shift to front
 from typing import Optional, List
 
 class Solution:
+    # O(n) Time and O(1) Space
     def removeElement(self, nums: List[int], val: int) -> int:
         overwrite_index = 0
         for idx in range(len(nums)):

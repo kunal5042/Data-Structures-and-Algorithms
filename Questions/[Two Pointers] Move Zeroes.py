@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/move-zeroes/
-
+# Easy
+# 
 from typing import Optional, List
 
 class Solution:

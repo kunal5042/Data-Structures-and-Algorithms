@@ -1,7 +1,9 @@
 # Question: https://leetcode.com/problems/3sum/
-
+# Medium
+# Break it down into two sum problem
 class Solution:
     "Optimal Solution: Two Pointer Approach"
+    # O(n^2) Time and O(1) Space
     def threeSum(self, nums):
         nums.sort()
         result = list()
@@ -24,7 +26,9 @@ class Solution:
                 else:
                     result.append(triplet)
                     left += 1
+                    # Tricky part
                     # skipping over duplicates
+                    # because array is sorted
                     while nums[left] == nums[left - 1] and left < right:
                         left += 1
                     
@@ -32,6 +36,7 @@ class Solution:
         return result
     
     "Requires extra space: Using Hashing"
+    # O(n^2) Time and O(n) Space
     def three_sum(self, nums):
         result = list()
         hash = {}

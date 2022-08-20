@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/partition-array-according-to-given-pivot/
-
+# Medium
+# 
 from typing import Optional, List
 
 class Solution:
@@ -7,7 +8,6 @@ class Solution:
     def pivotArray(self, nums: List[int], pivot: int) -> List[int]:
         result = [None for _ in range(len(nums))]
         smaller, greater = 0, len(nums)-1
-        left, right = 0, len(nums)-1
         
         for idx in range(len(nums)):
             if nums[~idx] > pivot:

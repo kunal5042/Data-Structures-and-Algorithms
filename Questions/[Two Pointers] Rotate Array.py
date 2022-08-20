@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/rotate-array/
-
+# Medium
+# Reverse(Reverse[0:k], Reverse[k+1:])
 from typing import Optional, List
 
 class Solution:

@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/push-dominoes/
-
+# Medium
+# Domino effect! Good Question
 from typing import Optional, List
 
 class Solution:
@@ -14,7 +15,7 @@ class Solution:
         # and first left domino to the right
         # if a right domino is not found but left domino is found: current domino falls to left
         # and vice versa
-        # if both dominos are found, move to centre
+        # if both dominos are found, move to center
         
         def get_right_domino(start) -> int:
             """Returns the index of the first right domino to the left"""

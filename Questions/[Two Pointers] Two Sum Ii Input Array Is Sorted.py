@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
-
+# Medium
+# Classic!
 from typing import Optional, List
 
 class Solution:
@@ -24,7 +25,7 @@ class Solution:
             else:
                 left  += 1
                 
-        return "Problem statement says there'll be atleast one solution"
+        raise Exception("Problem statement says there'll be atleast one solution")
 '''
 
 # Kunal Wadhwa

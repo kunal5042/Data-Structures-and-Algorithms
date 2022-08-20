@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/container-with-most-water
-
+# Medium
+# (0.0)
 class Solution:
     # O(n) Time and O(1) Space
     def maxArea(self, height: List[int]) -> int:

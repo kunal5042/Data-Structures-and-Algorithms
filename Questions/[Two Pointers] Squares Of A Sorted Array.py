@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/squares-of-a-sorted-array/
-
+# Easy
+# Square of a -ve number is +ve :)
 from typing import Optional, List
 
 class Solution:

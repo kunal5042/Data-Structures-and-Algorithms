@@ -1,6 +1,8 @@
 # Question: https://leetcode.com/problems/subarray-product-less-than-k/
-
+# Medium
+# 
 class Solution:
+    # O(n) Time and O(1) Space
     def numSubarrayProductLessThanK(self, nums: List[int], k: int) -> int:
         
         if k <= 1:

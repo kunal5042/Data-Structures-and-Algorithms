@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/rearrange-array-elements-by-sign/
-
+# Medium
+# Easier than it looks
 from typing import Optional, List
 
 class Solution:

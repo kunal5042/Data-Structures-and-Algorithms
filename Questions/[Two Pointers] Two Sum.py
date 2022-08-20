@@ -1,7 +1,10 @@
-#Question: https://leetcode.com/problems/two-sum/
+# Question: https://leetcode.com/problems/two-sum/
+# Easy
+# Nobody will ever ask this question
 from collections import deque
 
 class Solution:
+    # O(n) Time and O(n) Space
     def twoSum(self, nums, target):
         map_elements_to_indices = {}
         

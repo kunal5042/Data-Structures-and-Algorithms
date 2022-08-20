@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/find-the-duplicate-number/
-
+# Medium
+# Floyd's Cycle Detection
 from collections import Counter
 class Solution:
     # O(n) Time and Space
