@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/
-
+# Medium
 from typing import Optional, List
 
 # Definition for a Node.

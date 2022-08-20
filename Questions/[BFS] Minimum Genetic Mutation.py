@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/minimum-genetic-mutation/
-
+# Medium
 from typing import Optional, List
 
 from collections import deque

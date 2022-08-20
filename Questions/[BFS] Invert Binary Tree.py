@@ -1,7 +1,8 @@
 # Question: https://leetcode.com/problems/invert-binary-tree/
-
+# Medium
 from collections import deque
 class Solution:
+    # O(V) Time 
     def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
         if root is None: return root
         
@@ -12,7 +13,7 @@ class Solution:
         while len(queue):
             nodes_count = len(queue)
             
-            for node_number in range(nodes_count):
+            for _ in range(nodes_count):
                 node = queue.popleft()
                 node.left, node.right = node.right, node.left
                 

@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/maximum-width-of-binary-tree/
-
+# Medium
 from typing import Optional, List
 
 # Definition for a binary tree node.

@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/number-of-islands/
-
+# Medium
 from typing import Optional, List
 from collections import deque
 class Islands_BFS:

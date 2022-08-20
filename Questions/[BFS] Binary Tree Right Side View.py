@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/binary-tree-right-side-view/
-
+# Medium
 from typing import Optional, List
 
 # Definition for a binary tree node.
