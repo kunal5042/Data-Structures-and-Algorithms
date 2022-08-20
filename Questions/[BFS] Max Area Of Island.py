@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/max-area-of-island/
-
+# Medium
+# Keep track of length
 from typing import Optional, List
 
 from collections import deque

@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/flood-fill/
-
+# Easy
+# Easy?
 from typing import Optional, List
 
 from collections import deque

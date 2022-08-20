@@ -24,10 +24,10 @@
 |19|Medium|BFS|[ Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[BFS]%20Binary%20Tree%20Level%20Order%20Traversal.py)|Literally BFS Implementation|
 |20|Medium|BFS|[ Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[BFS]%20Binary%20Tree%20Right%20Side%20View.py)| |
 |21|Medium|BFS|[ Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[BFS]%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal.py)|Reverse direction at each level|
-|22| |BFS|[ Clone Graph](https://leetcode.com/problems/clone-graph)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[BFS]%20Clone%20Graph.py)| |
-|23| |BFS|[ Flood Fill](https://leetcode.com/problems/flood-fill)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[BFS]%20Flood%20Fill.py)| |
+|22|Medium|BFS|[ Clone Graph](https://leetcode.com/problems/clone-graph)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[BFS]%20Clone%20Graph.py)|Map nodes to their copies|
+|23|Easy|BFS|[ Flood Fill](https://leetcode.com/problems/flood-fill)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[BFS]%20Flood%20Fill.py)|Easy?|
 |24|Medium|BFS|[ Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[BFS]%20Invert%20Binary%20Tree.py)| |
-|25| |BFS|[ Max Area Of Island](https://leetcode.com/problems/max-area-of-island)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[BFS]%20Max%20Area%20Of%20Island.py)| |
+|25|Medium|BFS|[ Max Area Of Island](https://leetcode.com/problems/max-area-of-island)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[BFS]%20Max%20Area%20Of%20Island.py)|Keep track of length|
 |26|Medium|BFS|[ Maximum Width Of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[BFS]%20Maximum%20Width%20Of%20Binary%20Tree.py)| |
 |27|Easy|BFS|[ Minimum Depth Of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[BFS]%20Minimum%20Depth%20Of%20Binary%20Tree.py)| |
 |28|Medium|BFS|[ Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[BFS]%20Minimum%20Genetic%20Mutation.py)| |

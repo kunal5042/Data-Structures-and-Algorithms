@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/clone-graph/
-
+# Medium
+# Map nodes to their copies
 from typing import Optional, List
 from collections import deque
 
