@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/binary-tree-level-order-traversal/
-
+# Medium
+# Literally BFS Implementation
 from typing import Optional, List
 
 class TreeNode:

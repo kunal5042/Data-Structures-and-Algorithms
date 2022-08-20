@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/binary-tree-level-order-traversal-ii/
-
+# Medium
+# bfs_traversal.reverse()
 from typing import Optional, List
 from collections import deque
 

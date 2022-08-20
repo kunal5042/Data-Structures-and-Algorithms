@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/average-of-levels-in-binary-tree/
-
+# Easy
+# Sum / Count for each level
 from typing import Optional, List
 from collections import deque
 
@@ -18,7 +19,7 @@ class Solution:
             nodes_count = len(queue)
             nodes_sum_for_current_level = 0
             
-            for node_num in range(nodes_count):
+            for _ in range(nodes_count):
                 current_node = queue.popleft()
                 nodes_sum_for_current_level += current_node.val
                 

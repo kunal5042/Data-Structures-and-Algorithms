@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
-
+# Medium
+# Reverse direction at each level
 from typing import Optional, List
 from collections import deque
 
