@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/string-compression/
-
+# Medium
+# 
 from typing import Optional, List
 
 class Solution:

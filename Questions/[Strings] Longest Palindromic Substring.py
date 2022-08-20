@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/longest-palindromic-substring/
-
+# Medium
+# Expand from middle
 from typing import Optional, List
 
 class Solution:

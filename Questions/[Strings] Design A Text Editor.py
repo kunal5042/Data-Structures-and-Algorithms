@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/design-a-text-editor/
-
+# Hard
+# 
 from typing import Optional, List
 
 class TextEditor:

@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/first-unique-character-in-a-string/
-
+# Easy
+# Ordered Map
 from typing import Optional, List
 
 from collections import Counter

@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/sum-of-digits-of-string-after-convert/
-
+# Easy
+# Solve it without built in functions
 from typing import Optional, List
 
 from string import ascii_lowercase as alphabets

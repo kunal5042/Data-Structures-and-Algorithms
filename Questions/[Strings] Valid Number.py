@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/valid-number/
-
+# Hard
+# Just follow the valid number rules in order
 from typing import Optional, List
 
 class Solution:

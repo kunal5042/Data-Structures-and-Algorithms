@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/zigzag-conversion/
-
+# Medium
+# Good Question
 from typing import Optional, List
 
 class Solution:

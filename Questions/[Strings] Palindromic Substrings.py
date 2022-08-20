@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/palindromic-substrings/
-
+# Medium
+# Expand both sides
 from typing import Optional, List
 
 class Solution:

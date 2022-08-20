@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/longest-substring-without-repeating-characters/
-
+# Medium
+# Very Good Question!
 from typing import Optional, List
 
 class Solution:

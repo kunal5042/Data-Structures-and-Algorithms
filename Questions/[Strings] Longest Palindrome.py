@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/longest-palindrome/
-
+# Easy
+# Counter()
 from typing import Optional, List
 
 from collections import Counter
