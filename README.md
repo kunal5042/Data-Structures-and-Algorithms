@@ -238,4 +238,4 @@
 |233| |Two Pointers|[ Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Two%20Pointers]%20Subarray%20Product%20Less%20Than%20K.py)| |
 |234| |Two Pointers|[ Two Sum Ii Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Two%20Pointers]%20Two%20Sum%20Ii%20Input%20Array%20Is%20Sorted.py)| |
 |235| |Two Pointers|[ Two Sum](https://leetcode.com/problems/two-sum)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Two%20Pointers]%20Two%20Sum.py)||
-|236|Medium|Union Find|[ Redundant Connection](https://leetcode.com/problems/redundant-connection)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Union%20Find]%20Redundant%20Connection.py)| |
+|236|Medium|Union Find|[ Redundant Connection](https://leetcode.com/problems/redundant-connection)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Union%20Find]%20Redundant%20Connection.py)|Need to do more of these|
