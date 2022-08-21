@@ -1,6 +1,6 @@
 # Question: https://leetcode.com/problems/reachable-nodes-with-restrictions/
 # Medium
-# To Do: Solve using Union-Find ✅
+# To Do: Solve using Union-Find
 from typing import Optional, List
 from collections import defaultdict
 class Solution:

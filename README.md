@@ -82,7 +82,7 @@
 |77| |DFS|[ Path Sum Ii](https://leetcode.com/problems/path-sum-i)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[DFS]%20Path%20Sum%20Ii.py)| |
 |78| |DFS|[ Path Sum Iii](https://leetcode.com/problems/path-sum-iii)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[DFS]%20Path%20Sum%20Iii.py)| |
 |79| |DFS|[ Path Sum](https://leetcode.com/problems/path-sum)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[DFS]%20Path%20Sum.py)| |
-|80|Medium|DFS|[ Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[DFS]%20Reachable%20Nodes%20With%20Restrictions.py)|To Do: Solve using Union-Find ✅|
+|80|Medium|DFS|[ Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[DFS]%20Reachable%20Nodes%20With%20Restrictions.py)|To Do: Solve using Union-Find|
 |81| |DFS|[ Same Tree](https://leetcode.com/problems/same-tree)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[DFS]%20Same%20Tree.py)| |
 |82| |DFS|[ Subtree Of Another Tree](https://leetcode.com/problems/subtree-of-another-tree)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[DFS]%20Subtree%20Of%20Another%20Tree.py)| |
 |83| |DFS|[ Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[DFS]%20Validate%20Binary%20Search%20Tree.py)| |
