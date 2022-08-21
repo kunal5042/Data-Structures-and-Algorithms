@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/valid-sudoku
 # Medium
+# 
 from typing import Optional, List
 from collections import defaultdict
 class Solution:

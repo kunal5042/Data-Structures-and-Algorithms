@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/intersection-of-two-arrays-ii/
-
+# Easy
+# 
 from typing import Optional, List
 
 class Solution:

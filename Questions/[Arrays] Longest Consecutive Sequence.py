@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/longest-consecutive-sequence/
 # Medium
+# top-down to optimize
 from typing import Optional, List
 
 class Solution:

@@ -1,7 +1,9 @@
 # Question: https://leetcode.com/problems/set-matrix-zeroes/
 # Medium
+# 
 from typing import List, Optional
 class Solution:
+    # O(rows*cols) Time and O(1) Space
     def setZeroes(self, matrix: List[List[int]]) -> None:
         """
         Do not return anything, modify matrix in-place instead.

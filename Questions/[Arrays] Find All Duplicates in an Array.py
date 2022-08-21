@@ -1,6 +1,6 @@
 # Question: https://leetcode.com/problems/find-all-duplicates-in-an-array/
 # Medium
-
+# Map indices to numbers 
 from typing import List, Optional
 
 class Solution:

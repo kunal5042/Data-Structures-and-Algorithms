@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/maximum-subarray/
 # Medium
+# Kadane
 class Solution:
     def maxSubArray(self, nums):
         dynamic_sum = nums[0]

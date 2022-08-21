@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/equal-row-and-column-pairs/
 # Medium
+# Convert into strings
 from typing import Optional, List
 
 class Solution:

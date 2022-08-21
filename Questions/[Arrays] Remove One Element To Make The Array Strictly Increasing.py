@@ -1,8 +1,10 @@
 # Question: https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/
 # Easy
+# 
 from typing import Optional, List
 
 class Solution:
+    # O(n^2) Time O(1) Space
     def canBeIncreasing(self, nums: List[int]) -> bool:
         if len(nums) <= 2: return True
         def is_decreasing(idx, upper_bound):

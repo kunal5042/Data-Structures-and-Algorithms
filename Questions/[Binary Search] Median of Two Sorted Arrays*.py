@@ -1,8 +1,9 @@
 # Question: https://leetcode.com/problems/median-of-two-sorted-arrays/
-    
-# Time: log(min(n, m))
+# Hard
+# Constraint: Time complexity should be O(log(m+n))
 
 class Solution:
+    # Time: log(min(n, m))
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         A, B   = nums1, nums2
         total  = len(nums1) + len(nums2)

@@ -1,12 +1,12 @@
 # Questions: https://leetcode.com/problems/spiral-matrix/
 # Medium
+# Traversals can be tricky
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
         
         output = list()
         colstart, colend = 0, len(matrix[0])
         rowstart, rowend = 0, len(matrix)
-        currow  , curcol = 0, len(matrix[0])-1
         toprow  , botrow = 0, len(matrix)-1
         leftcol , rightcol = 0, len(matrix[0])-1
         

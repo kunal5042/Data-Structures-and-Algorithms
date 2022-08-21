@@ -1,6 +1,8 @@
 # Question: https://leetcode.com/problems/rotate-image/
 # Medium
+# 
 class Solution:
+    # O(rows*cols) Time and O(1) Space
     def rotate(self, matrix):
         """
         Do not return anything, modify matrix in-place instead.

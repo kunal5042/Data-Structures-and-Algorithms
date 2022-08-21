@@ -1,10 +1,11 @@
 # Question: https://leetcode.com/problems/product-of-array-except-self/
 # Medium
+# Hard to solve in one pass and constant space. P.S: Done
 class Solution:
+    # O(n) Time and O(1) Space: where n is the length of the input array
     def productExceptSelf(self, nums):
         result = [1 for _ in range(len(nums))]
         
-        # O(n) Time and O(1) Space: where n is the length of the input array
         # Logic: result[idx] = left_products[idx-1] * right_products[idx+1]
         # now, instead of storing left and right products in a separate array
         # we keep calculating them as we traverse the array simultaneously using them for resultant array calculation
