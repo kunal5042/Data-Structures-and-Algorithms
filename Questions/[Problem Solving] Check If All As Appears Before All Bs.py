@@ -1,8 +1,10 @@
 # Question: https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/
 # Easy
+#
 from typing import Optional, List
 
 class Solution:
+    # O(n) Time and O(1) Space
     def checkString(self, s: str) -> bool:
         a_present, last_a  = False, float('-inf')
         b_present, first_b = False, float('inf')
