@@ -1,8 +1,8 @@
 # Question: https://leetcode.com/problems/maximum-score-of-a-good-subarray/
 # Hard
+# Enjoyed solving it
 from typing import Optional, List
 
-Enjoyed solving it
 class Solution:
     # O(n) Time and O(1) Space
     def maximumScore(self, nums: List[int], k: int) -> int:
