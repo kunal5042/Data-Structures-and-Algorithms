@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/minimum-absolute-sum-difference/
 # Medium
+# Took some time!
 from typing import Optional, List
 
 from bisect import bisect_left as closest_number_idx
@@ -8,9 +9,9 @@ class Solution:
     def minAbsoluteSumDiff(self, nums1: List[int], nums2: List[int]) -> int:
         LENGTH = len(nums1)
         sorted_nums1 = sorted(nums1)
-        best_optimization = float('-inf')
-        best_optimization_idx = None
-        optimized_difference = None
+        largest_reduced_difference = float('-inf')
+        largest_reduced_difference_idx = None
+        reduced_difference = None
         
         for idx in range(LENGTH):
             original = abs(nums1[idx] - nums2[idx])
@@ -29,17 +30,17 @@ class Solution:
             
             this = abs(original - optimized)
             
-            if this > best_optimization:
-                best_optimization = this
-                best_optimization_idx = idx
-                optimized_difference = optimized
+            if this > largest_reduced_difference:
+                largest_reduced_difference = this
+                largest_reduced_difference_idx = idx
+                reduced_difference = optimized
     
-        if best_optimization == float('-inf'): return 0        
+        if largest_reduced_difference == float('-inf'): return 0        
         
         total = 0
         for idx in range(LENGTH):
-            if idx == best_optimization_idx:
-                total += optimized_difference
+            if idx == largest_reduced_difference_idx:
+                total += reduced_difference
             else:
                 total += abs(nums1[idx] - nums2[idx])
         return total % (10**9 + 7)
