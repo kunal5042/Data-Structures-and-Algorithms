@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/number-of-1-bits/
 # Easy
+# To Do: Solve using Bit Manipulation
 from typing import Optional, List
 
 from collections import Counter
