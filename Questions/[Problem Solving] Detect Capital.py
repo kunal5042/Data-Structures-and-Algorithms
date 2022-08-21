@@ -1,7 +1,8 @@
 # Question: https://leetcode.com/problems/detect-capital/
 # Easy
+# 
 from typing import Optional, List
-
+import string
 class Solution:
     # O(n) Time and O(1) Space
     def detectCapitalUse(self, word: str) -> bool:
