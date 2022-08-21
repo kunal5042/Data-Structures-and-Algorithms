@@ -1,6 +1,6 @@
 # Question: https://leetcode.com/problems/palindrome-partitioning/
 # Medium
-
+# 
 from typing import Optional, List
 
 class Solution:

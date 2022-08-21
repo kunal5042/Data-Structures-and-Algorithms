@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/subsets/
-
+# Medium
+# Classic
 from typing import Optional, List
 
 class Solution:

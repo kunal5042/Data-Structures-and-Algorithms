@@ -1,6 +1,6 @@
 # Question: https://leetcode.com/problems/all-paths-from-source-to-target/
 # Medium
-
+# Good Question
 from typing import Optional, List
 
 class Node:

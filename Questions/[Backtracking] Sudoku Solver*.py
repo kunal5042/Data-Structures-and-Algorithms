@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/sudoku-solver/
-
+# Hard
+# 
 from typing import Optional, List
 
 class Solution:

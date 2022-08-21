@@ -1,6 +1,6 @@
 # Question: https://leetcode.com/problems/generate-parentheses/
 # Medium
-
+# 
 from typing import Optional, List
 
 class Solution:

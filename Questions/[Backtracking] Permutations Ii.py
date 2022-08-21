@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/permutations-ii/
-
+# Medium
+# Update counter for each call to generate unique paths
 from typing import Optional, List
 
 from collections import Counter

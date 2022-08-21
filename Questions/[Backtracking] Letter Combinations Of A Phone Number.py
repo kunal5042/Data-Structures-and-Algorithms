@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/letter-combinations-of-a-phone-number/
-
+# Medium
+# Replace numbers with all possible chars recursively
 from typing import Optional, List
 
 class Solution:

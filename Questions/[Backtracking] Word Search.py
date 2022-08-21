@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/word-search/
-
+# Medium
+# DFS along with backtracking
 from typing import Optional, List
 
 class Solution:
@@ -39,6 +40,7 @@ class Solution:
                     visited[adjacent] = True
                     new_row, new_col = adjacent
                     depth_first_match(new_row, new_col, widx, visited)
+                    # backtrack
                     del visited[adjacent]
                     if found:
                         return

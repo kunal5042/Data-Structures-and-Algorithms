@@ -1,6 +1,6 @@
 # Question: https://leetcode.com/problems/beautiful-arrangement/
 # Medium
-
+# To Do: Solve using DP
 from typing import Optional, List
 
 class Solution:
