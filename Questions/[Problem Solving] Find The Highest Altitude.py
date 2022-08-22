@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/find-the-highest-altitude/
 # Easy
+#
 from typing import Optional, List
 
 
