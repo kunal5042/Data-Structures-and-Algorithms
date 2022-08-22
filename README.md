@@ -213,7 +213,7 @@
 |208| |Sorting|[ K Closest Points To Origin](https://leetcode.com/problems/k-closest-points-to-origin)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Sorting]%20K%20Closest%20Points%20To%20Origin.py)| |
 |209| |Stack|[ Simplify Path](https://leetcode.com/problems/simplify-path)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Stack]%20Simplify%20Path.py)| |
 |210| |Stack|[ Valid Parentheses](https://leetcode.com/problems/valid-parentheses)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Stack]%20Valid%20Parentheses.py)| |
-|211|Medium|Strings|[ Count And Say](https://leetcode.com/problems/count-and-say)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Strings]%20Count%20And%20Say.py)| |
+|211|Medium|Strings|[ Count And Say](https://leetcode.com/problems/count-and-say)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Strings]%20Count%20And%20Say.py)|DP bottom-up|
 |212|Hard|Strings|[ Design A Text Editor](https://leetcode.com/problems/design-a-text-editor)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Strings]%20Design%20A%20Text%20Editor.py)||
 |213|Easy|Strings|[ First Unique Character In A String](https://leetcode.com/problems/first-unique-character-in-a-string)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Strings]%20First%20Unique%20Character%20In%20A%20String.py)|Ordered Map|
 |214|Easy|Strings|[ Longest Palindrome](https://leetcode.com/problems/longest-palindrome)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Strings]%20Longest%20Palindrome.py)|Counter()|

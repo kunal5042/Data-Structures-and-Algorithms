@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/count-and-say/
 # Medium
+# DP bottom-up
 from typing import Optional, List
 
 class Solution:
