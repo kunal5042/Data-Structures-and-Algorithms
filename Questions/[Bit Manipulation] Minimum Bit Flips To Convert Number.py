@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/minimum-bit-flips-to-convert-number/
 # Easy
+# (a XOR b).bit_count()
 from typing import Optional, List
 
 class Solution:
