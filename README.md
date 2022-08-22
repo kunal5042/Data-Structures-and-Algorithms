@@ -14,7 +14,7 @@
 |09|Easy|Arrays|[ Remove Duplicates](https://leetcode.com/problems/remove-duplicates-from-sorted-array)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Remove%20Duplicates.py)||
 |10|Easy|Arrays|[ Remove One Element To Make The Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Remove%20One%20Element%20To%20Make%20The%20Array%20Strictly%20Increasing.py)||
 |11|Medium|Arrays|[ Rotate Image](https://leetcode.com/problems/rotate-image)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Rotate%20Image.py)||
-|12|Medium|Arrays|[ Rotating The Box](https://leetcode.com/problems/rotating-the-box)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Rotating%20The%20Box.py)| |
+|12|Medium|Arrays|[ Rotating The Box](https://leetcode.com/problems/rotating-the-box)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Rotating%20The%20Box.py)|Can be optimized|
 |13|Medium|Arrays|[ Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Set%20Matrix%20Zeroes.py)||
 |14|Medium|Arrays|[ Spiral Matrix](https://leetcode.com/problems/spiral-matrix)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Spiral%20Matrix.py)|Traversals can be tricky|
 |15|Medium|Arrays|[ Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Top%20K%20Frequent%20Elements.py)|Counter(nums).most_common(k)|

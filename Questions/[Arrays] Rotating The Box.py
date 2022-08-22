@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/rotating-the-box/
 # Medium
+# Can be optimized
 from typing import Optional, List
 
 class Solution:
@@ -19,7 +20,6 @@ class Solution:
                     box[row][col] = '.'
                     box[row][idx] = '#'
                     
-        
         return zip(*box[::-1])
 '''
 
