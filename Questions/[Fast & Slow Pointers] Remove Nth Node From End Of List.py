@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/remove-nth-node-from-end-of-list/
-
+# Medium
+#
 from typing import Optional, List
 
 # Definition for singly-linked list.
@@ -9,6 +10,7 @@ class ListNode:
         self.next = next
         
 class Solution:
+    # O(n) Time and O(1) Space
     def removeNthFromEnd(self, head: Optional[ListNode], n: int):
         if head is None : return head
         if head.next is None:
@@ -32,8 +34,8 @@ class Solution:
         slow.next = slow.next.next
         return head
     
-    
-    def removeNthFromEndLength(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
+    # O(n) Time and O(1) Space
+    def removeNthFromEnd_Length(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
         slow   = head
         length = 0
         
@@ -53,8 +55,8 @@ class Solution:
         previous.next = current.next
         return head
         
-    
-    def removeNthFromEndArray(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
+    # O(n) Time and O(n) Space
+    def removeNthFromEnd_Array(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
         if not head: return
         current   = head
         traversal = []

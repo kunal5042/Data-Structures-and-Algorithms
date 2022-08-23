@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/happy-number/
-
+# Easy
+# Good one!
 from typing import Optional, List
 
 class Solution:

@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/find-median-from-data-stream/
 # Hard
+# Two Heaps
 from typing import Optional, List
 
 import heapq

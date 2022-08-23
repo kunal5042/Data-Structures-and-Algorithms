@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/linked-list-cycle-ii/
-
+# Medium
+# Floyd's Cycle Detection
 from typing import Optional, List
 
 # Definition for singly-linked list.
