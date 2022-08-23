@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/edit-distance/
 # Hard
+# Levenshtein distance
 from typing import Optional, List
 
 class Solution:
