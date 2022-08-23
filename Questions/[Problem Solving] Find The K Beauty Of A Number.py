@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/find-the-k-beauty-of-a-number/
 # Easy
+#
 from typing import Optional, List
 
 class Solution:
