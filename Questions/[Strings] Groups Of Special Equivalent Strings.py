@@ -1,7 +1,7 @@
 # Question: https://leetcode.com/problems/groups-of-special-equivalent-strings/
 # Medium
 from typing import Optional, List
-
+from collections import defaultdict
 
 class Solution:
     def numSpecialEquivGroups(self, words: List[str]) -> int:
