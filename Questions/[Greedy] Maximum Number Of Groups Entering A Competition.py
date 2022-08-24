@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/maximum-number-of-groups-entering-a-competition/
 # Medium
+# To Do: Solve using Binary Search and Formula
 from typing import Optional, List
 
 class Solution:
