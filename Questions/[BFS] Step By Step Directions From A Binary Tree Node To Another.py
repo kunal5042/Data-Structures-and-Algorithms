@@ -1,8 +1,7 @@
 # Question: https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/
 # Medium
-# 
 from typing import Optional, List
-from collections import defaultdict, deque
+
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
@@ -136,7 +135,6 @@ class Solution:
                     queue.append((adjnode, path+direction))
         
         return ''
-
 
 '''
 
