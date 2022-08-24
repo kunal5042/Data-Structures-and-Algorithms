@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/game-of-life/
 # Medium
+# Save state
 from typing import Optional, List
 
 class Solution:
