@@ -1,4 +1,22 @@
 # Question: https://leetcode.com/problems/maximum-product-subarray/
+# Medium
+from typing import Optional, List
+
+class Solution:
+    # O(n) Time and O(1) Space
+    def maxProduct(self, nums: List[int]) -> int:
+        result = minimum = maximum = nums[0]
+        
+        for idx in range(1, len(nums)):
+            if nums[idx] < 0:
+                minimum, maximum = maximum, minimum
+                
+            minimum = min(nums[idx], nums[idx]*minimum)
+            maximum = max(nums[idx], nums[idx]*maximum)
+            result  = max(result, maximum)
+            
+        return result
+# Question: https://leetcode.com/problems/maximum-product-subarray/
 
 from typing import Optional, List
 
@@ -32,6 +50,10 @@ class Solution:
                 
                 
 '''
+
+# Kunal Wadhwa
+
+''''''
 
 # Kunal Wadhwa
 
