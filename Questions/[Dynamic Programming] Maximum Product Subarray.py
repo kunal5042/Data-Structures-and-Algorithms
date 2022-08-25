@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/maximum-product-subarray/
 # Medium
+# Variation of Kadane's Algorithm
 from typing import Optional, List
 
 class Solution:
@@ -16,11 +17,9 @@ class Solution:
             result  = max(result, maximum)
             
         return result
-# Question: https://leetcode.com/problems/maximum-product-subarray/
-
-from typing import Optional, List
 
 class Solution:
+    # O(n) Time and O(1) Space
     def maxProduct(self, nums):
         """
         Returns the maximum of product of all subarrays
@@ -50,10 +49,6 @@ class Solution:
                 
                 
 '''
-
-# Kunal Wadhwa
-
-''''''
 
 # Kunal Wadhwa
 
