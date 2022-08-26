@@ -1,8 +1,8 @@
 # Question: https://leetcode.com/problems/sort-an-array/
 # Medium
+# Merge Sort, Quick Sort and Heap Sort
 from typing import Optional, List
-
-from heapq import heapify, heappop, heappush
+from heapq import heapify, heappop
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
         # return self.heap_sort(nums)

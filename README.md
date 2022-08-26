@@ -218,7 +218,7 @@
 |213| |Sliding Window|[ Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Sliding%20Window]%20Minimum%20Size%20Subarray%20Sum.py)| |
 |214| |Sliding Window|[ Permutation In String](https://leetcode.com/problems/permutation-in-string)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Sliding%20Window]%20Permutation%20In%20String.py)| |
 |215| |Sorting|[ K Closest Points To Origin](https://leetcode.com/problems/k-closest-points-to-origin)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Sorting]%20K%20Closest%20Points%20To%20Origin.py)| |
-|216|Medium|Sorting|[ Sort An Array](https://leetcode.com/problems/sort-an-array)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Sorting]%20Sort%20An%20Array.py)| |
+|216|Medium|Sorting|[ Sort An Array](https://leetcode.com/problems/sort-an-array)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Sorting]%20Sort%20An%20Array.py)|Merge Sort, Quick Sort and Heap Sort|
 |217| |Stack|[ Simplify Path](https://leetcode.com/problems/simplify-path)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Stack]%20Simplify%20Path.py)| |
 |218| |Stack|[ Valid Parentheses](https://leetcode.com/problems/valid-parentheses)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Stack]%20Valid%20Parentheses.py)| |
 |219|Medium|Strings|[ Count And Say](https://leetcode.com/problems/count-and-say)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Strings]%20Count%20And%20Say.py)|DP bottom-up|
