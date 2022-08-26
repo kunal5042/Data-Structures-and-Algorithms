@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/reverse-pairs/
 # Hard
+# IMP: Application of Merge Sort Algorithm other than just sorting the input.
 from typing import Optional, List
 
 class Solution:
