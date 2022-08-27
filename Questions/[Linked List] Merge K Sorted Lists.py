@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/merge-k-sorted-lists/
 # Hard
+# Divide & Conquer. To Do: Solve using Priority Queue
 from typing import Optional, List
 
 # Definition for singly-linked list.
