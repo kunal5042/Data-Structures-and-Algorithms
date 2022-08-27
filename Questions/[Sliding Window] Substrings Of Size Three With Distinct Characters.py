@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/
 # Easy
+# Follow Up: Longest Substring without repeating characters
 from typing import Optional, List
 
 class Solution:
