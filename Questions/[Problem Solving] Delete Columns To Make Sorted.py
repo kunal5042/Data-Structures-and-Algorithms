@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/delete-columns-to-make-sorted/
 # Easy
+# 
 from typing import Optional, List
 
 from string import ascii_lowercase 
