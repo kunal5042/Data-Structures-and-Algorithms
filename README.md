@@ -4,7 +4,7 @@
 | Q No.| Difficulty | Category | Question | Solution | Comments | 
 | :------: | --------- | ----------------- | :--------: | :---------: | :---------: |
 |01|Medium|Arrays|[ Beautiful Array](https://leetcode.com/problems/beautiful-array)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Beautiful%20Array.py)|Hard!|
-|02|Easy|Arrays|[ Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Convert%201D%20Array%20Into%202D%20Array.py)||
+
 |03|Medium|Arrays|[ Equal Row And Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Equal%20Row%20And%20Column%20Pairs.py)|Convert into strings|
 |04|Medium|Arrays|[ Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Find%20All%20Duplicates%20in%20an%20Array.py)|Map indices to numbers|
 |05|Medium|Arrays|[ Game Of Life](https://leetcode.com/problems/game-of-life)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Game%20Of%20Life.py)|Save state|
@@ -12,28 +12,28 @@
 |07|Medium|Arrays|[ Maximum Subarray](https://leetcode.com/problems/maximum-subarray)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Maximum%20Subarray.py)|Kadane|
 |08|Medium|Arrays|[ Minimum Absolute Sum Difference](https://leetcode.com/problems/minimum-absolute-sum-difference)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Minimum%20Absolute%20Sum%20Difference.py)|Took some time!|
 |09|Medium|Arrays|[ Product of Arrays Except Self](https://leetcode.com/problems/product-of-array-except-self)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Product%20of%20Arrays%20Except%20Self.py)|Hard to solve in one pass and constant space. P.S: Done|
-|10|Easy|Arrays|[ Remove Duplicates](https://leetcode.com/problems/remove-duplicates-from-sorted-array)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Remove%20Duplicates.py)||
-|11|Easy|Arrays|[ Remove One Element To Make The Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Remove%20One%20Element%20To%20Make%20The%20Array%20Strictly%20Increasing.py)||
+
+
 |12|Hard|Arrays|[ Reverse Pairs](https://leetcode.com/problems/reverse-pairs)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Reverse%20Pairs.py)|IMP: Application of Merge Sort Algorithm other than just sorting the input.|
 |13|Medium|Arrays|[ Rotate Image](https://leetcode.com/problems/rotate-image)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Rotate%20Image.py)||
 |14|Medium|Arrays|[ Rotating The Box](https://leetcode.com/problems/rotating-the-box)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Rotating%20The%20Box.py)|Can be optimized|
 |15|Medium|Arrays|[ Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Set%20Matrix%20Zeroes.py)||
 |16|Medium|Arrays|[ Spiral Matrix](https://leetcode.com/problems/spiral-matrix)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Spiral%20Matrix.py)|Traversals can be tricky|
 |17|Medium|Arrays|[ Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Top%20K%20Frequent%20Elements.py)|Counter(nums).most_common(k)|
-|18|Easy|Arrays|[ Two Sum](https://leetcode.com/problems/two-sum)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Two%20Sum.py)||
+
 |19|Medium|Arrays|[ Valid Sudoku](https://leetcode.com/problems/valid-sudok)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Valid%20Sudoku.py)||
 |20|Medium|BFS|[ All Nodes Distance K In Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[BFS]%20All%20Nodes%20Distance%20K%20In%20Binary%20Tree.py)|This was fun!|
-|21|Easy|BFS|[ Average Of Levels In Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[BFS]%20Average%20Of%20Levels%20In%20Binary%20Tree.py)|Sum / Count for each level|
+
 |22|Medium|BFS|[ Binary Tree Level Order Traversal Ii](https://leetcode.com/problems/binary-tree-level-order-traversal-ii)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[BFS]%20Binary%20Tree%20Level%20Order%20Traversal%20Ii.py)|bfs_traversal.reverse()|
 |23|Medium|BFS|[ Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[BFS]%20Binary%20Tree%20Level%20Order%20Traversal.py)|Literally BFS Implementation|
 |24|Medium|BFS|[ Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[BFS]%20Binary%20Tree%20Right%20Side%20View.py)| |
 |25|Medium|BFS|[ Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[BFS]%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal.py)|Reverse direction at each level|
 |26|Medium|BFS|[ Clone Graph](https://leetcode.com/problems/clone-graph)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[BFS]%20Clone%20Graph.py)|Map nodes to their copies|
-|27|Easy|BFS|[ Flood Fill](https://leetcode.com/problems/flood-fill)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[BFS]%20Flood%20Fill.py)|Easy?|
+
 |28|Medium|BFS|[ Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[BFS]%20Invert%20Binary%20Tree.py)| |
 |29|Medium|BFS|[ Max Area Of Island](https://leetcode.com/problems/max-area-of-island)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[BFS]%20Max%20Area%20Of%20Island.py)|Keep track of length|
 |30|Medium|BFS|[ Maximum Width Of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[BFS]%20Maximum%20Width%20Of%20Binary%20Tree.py)| |
-|31|Easy|BFS|[ Minimum Depth Of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[BFS]%20Minimum%20Depth%20Of%20Binary%20Tree.py)| |
+
 |32|Medium|BFS|[ Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[BFS]%20Minimum%20Genetic%20Mutation.py)| |
 |33|Medium|BFS|[ Number Of Islands](https://leetcode.com/problems/number-of-islands)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[BFS]%20Number%20Of%20Islands.py)| |
 |34|Hard|BFS|[ Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[BFS]%20Pacific%20Atlantic%20Water%20Flow.py)| |
@@ -65,33 +65,33 @@
 |60| |Binary Search|[ Search A 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Binary%20Search]%20Search%20A%202D%20Matrix.py)| |
 |61| |Binary Search|[ Search In Rotated Sorted Array*](https://leetcode.com/problems/search-in-rotated-sorted-array)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Binary%20Search]%20Search%20In%20Rotated%20Sorted%20Array*.py)| |
 |62| |Binary Search|[ Search Insert Position](https://leetcode.com/problems/search-insert-position)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Binary%20Search]%20Search%20Insert%20Position.py)| |
-|63|Easy|Bit Manipulation|[ Counting Bits](https://leetcode.com/problems/counting-bits)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Bit%20Manipulation]%20Counting%20Bits.py)| |
-|64|Easy|Bit Manipulation|[ Minimum Bit Flips To Convert Number](https://leetcode.com/problems/minimum-bit-flips-to-convert-number)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Bit%20Manipulation]%20Minimum%20Bit%20Flips%20To%20Convert%20Number.py)|(a XOR b).bit_count()|
-|65|Easy|Bit Manipulation|[ Missing Number](https://leetcode.com/problems/missing-number)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Bit%20Manipulation]%20Missing%20Number.py)| |
+
+
+
 |66|Medium|Bit Manipulation|[ Reverse Integer](https://leetcode.com/problems/reverse-integer)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Bit%20Manipulation]%20Reverse%20Integer.py)| |
-|67|Easy|Bit Manipulation|[ Single Number](https://leetcode.com/problems/single-number)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Bit%20Manipulation]%20Single%20Number.py)| |
+
 |68| |Bucket-Sort|[ Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Bucket-Sort]%20Top%20K%20Frequent%20Elements.py)| |
 |69|Medium|DFS|[ All Nodes Distance K In Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[DFS]%20All%20Nodes%20Distance%20K%20In%20Binary%20Tree.py)|To Do: Solve using Graph ✅|
-|70|Easy|DFS|[ Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[DFS]%20Balanced%20Binary%20Tree.py)||
+
 |71|Medium|DFS|[ Construct Binary Tree From Preorder And Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[DFS]%20Construct%20Binary%20Tree%20From%20Preorder%20And%20Inorder%20Traversal.py)|To Do: Revisit|
-|72|Easy|DFS|[ Diameter Of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[DFS]%20Diameter%20Of%20Binary%20Tree.py)||
+
 |73|Medium|DFS|[ Find If Path Exists In Graph](https://leetcode.com/problems/find-if-path-exists-in-graph)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[DFS]%20Find%20If%20Path%20Exists%20In%20Graph.py)||
-|74|Easy|DFS|[ Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[DFS]%20Invert%20Binary%20Tree.py)|root.left, root.right = root.right, root.left (Recursively)|
+
 |75|Medium|DFS|[ Kth Smallest Element In A Bst](https://leetcode.com/problems/kth-smallest-element-in-a-bst)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[DFS]%20Kth%20Smallest%20Element%20In%20A%20Bst.py)|Iterative inorder|
-|76|Easy|DFS|[ Lowest Common Ancestor Of A Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[DFS]%20Lowest%20Common%20Ancestor%20Of%20A%20Binary%20Search%20Tree.py)|To Do: Read the question carefully. Given tree is a BST|
+
 |77|Medium|DFS|[ Lowest Common Ancestor Of A Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[DFS]%20Lowest%20Common%20Ancestor%20Of%20A%20Binary%20Tree.py)|To Do: Implement Top-Down|
 |78|Medium|DFS|[ Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[DFS]%20Maximum%20Binary%20Tree.py)|To Do: Revisit|
-|79|Easy|DFS|[ Maximum Depth Of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[DFS]%20Maximum%20Depth%20Of%20Binary%20Tree.py)||
-|80|Easy|DFS|[ Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[DFS]%20Merge%20Two%20Binary%20Trees.py)|Bunch of (if node is None) checks!|
+
+
 |81|Medium|DFS|[ Number Of Islands](https://leetcode.com/problems/number-of-islands)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[DFS]%20Number%20Of%20Islands.py)|Mark all chains, keep track of the count of these chains|
 |82|Medium|DFS|[ Number Of Operations To Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[DFS]%20Number%20Of%20Operations%20To%20Make%20Network%20Connected.py)|To Do: Solve using Union-Find|
 |83|Medium|DFS|[ Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[DFS]%20Pacific%20Atlantic%20Water%20Flow.py)|atlantic.intersection(pacific): where atlantic and pacific is a set of coordinates from which water can flow to their respective oceans|
 |84|Medium|DFS|[ Path Sum Ii](https://leetcode.com/problems/path-sum-i)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[DFS]%20Path%20Sum%20Ii.py)|Use backtracking to check all root-to-leaf paths|
 |85|Medium|DFS|[ Path Sum Iii](https://leetcode.com/problems/path-sum-iii)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[DFS]%20Path%20Sum%20Iii.py)|Use prefix sum|
-|86|Easy|DFS|[ Path Sum](https://leetcode.com/problems/path-sum)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[DFS]%20Path%20Sum.py)||
+
 |87|Medium|DFS|[ Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[DFS]%20Reachable%20Nodes%20With%20Restrictions.py)|To Do: Solve using Union-Find|
-|88|Easy|DFS|[ Same Tree](https://leetcode.com/problems/same-tree)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[DFS]%20Same%20Tree.py)|Traverse together|
-|89|Easy|DFS|[ Subtree Of Another Tree](https://leetcode.com/problems/subtree-of-another-tree)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[DFS]%20Subtree%20Of%20Another%20Tree.py)||
+
+
 |90|Medium|DFS|[ Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[DFS]%20Validate%20Binary%20Search%20Tree.py)||
 |91|Hard|Design|[ Find Median From Data Stream](https://leetcode.com/problems/find-median-from-data-stream)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Design]%20Find%20Median%20From%20Data%20Stream.py)|Two Heaps|
 |92|Medium|Dijkstra's Algorithm|[ Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Dijkstra's%20Algorithm]%20Cheapest%20Flights%20Within%20K%20Stops.py)|Shortest path with an added constraint of max hops/nodes|
@@ -123,7 +123,7 @@
 |118| |Dynamic Programming|[ Number Of Restricted Paths From First To Last Node](https://leetcode.com/problems/number-of-restricted-paths-from-first-to-last-node)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Dynamic%20Programming]%20Number%20Of%20Restricted%20Paths%20From%20First%20To%20Last%20Node.py)| |
 |119| |Dynamic Programming|[ Number Of Ways To Arrive At Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Dynamic%20Programming]%20Number%20Of%20Ways%20To%20Arrive%20At%20Destination.py)| |
 |120| |Dynamic Programming|[ Partition Equal Subset Sum*](https://leetcode.com/problems/partition-equal-subset-sum)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Dynamic%20Programming]%20Partition%20Equal%20Subset%20Sum*.py)| |
-|121|Easy|Dynamic Programming|[ Pascals Triangle Ii](https://leetcode.com/problems/pascals-triangle-ii)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Dynamic%20Programming]%20Pascals%20Triangle%20Ii.py)| |
+
 |122| |Dynamic Programming|[ Sort Integers By The Power Value](https://leetcode.com/problems/sort-integers-by-the-power-value)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Dynamic%20Programming]%20Sort%20Integers%20By%20The%20Power%20Value.py)| |
 |123| |Dynamic Programming|[ Super Ugly Number](https://leetcode.com/problems/super-ugly-number)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Dynamic%20Programming]%20Super%20Ugly%20Number.py)| |
 |124| |Dynamic Programming|[ Target Sum](https://leetcode.com/problems/target-sum)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Dynamic%20Programming]%20Target%20Sum.py)| |
@@ -134,10 +134,10 @@
 |129| |Dynamic Programming|[ Word Break](https://leetcode.com/problems/word-break)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Dynamic%20Programming]%20Word%20Break.py)| |
 |130|Medium|Famous Algorithms|[ Floyd's Cycle Detection](https://leetcode.com/problems/find-the-duplicate-number)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Famous%20Algorithms]%20Floyd's%20Cycle%20Detection.py)| |
 |131|Medium|Famous Algorithms|[ Kadane's Algorithm](https://leetcode.com/problems/maximum-subarray)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Famous%20Algorithms]%20Kadane's%20Algorithm.py)| |
-|132|Easy|Famous Algorithms|[ Moore's Voting Algorithm](https://leetcode.com/problems/majority-element)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Famous%20Algorithms]%20Moore's%20Voting%20Algorithm.py)| |
+
 |133|Medium|Famous Algorithms|[ Prim's Algorithm](https://leetcode.com/problems/min-cost-to-connect-all-points)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Famous%20Algorithms]%20Prim's%20Algorithm.py)| |
 |134|Medium|Famous Algorithms|[ Sieve of Eratosthenes](https://leetcode.com/problems/count-primes/submissions)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Famous%20Algorithms]%20Sieve%20of%20Eratosthenes.py)| |
-|135|Easy|Fast & Slow Pointers|[ Happy Number](https://leetcode.com/problems/happy-number)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Fast%20&%20Slow%20Pointers]%20Happy%20Number.py)|Good one!|
+
 |136|Medium|Fast & Slow Pointers|[ Linked List Cycle Ii](https://leetcode.com/problems/linked-list-cycle-ii)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Fast%20&%20Slow%20Pointers]%20Linked%20List%20Cycle%20Ii.py)|Floyd's Cycle Detection|
 |137|Medium|Fast & Slow Pointers|[ Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Fast%20&%20Slow%20Pointers]%20Remove%20Nth%20Node%20From%20End%20Of%20List.py)||
 |138|Medium|Fast & Slow Pointers|[ Sort List](https://leetcode.com/problems/sort-list)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Fast%20&%20Slow%20Pointers]%20Sort%20List.py)|Merge-Sort|
@@ -158,8 +158,8 @@
 |153| |Hash|[ Bulls And Cows](https://leetcode.com/problems/bulls-and-cows)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Hash]%20Bulls%20And%20Cows.py)| |
 |154| |Hash|[ Contiguous Array - Equal 0s and 1s in BA](https://leetcode.com/problems/contiguous-array)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Hash]%20Contiguous%20Array%20-%20Equal%200s%20and%201s%20in%20BA.py)| |
 |155| |Hash|[ Group Anagrams](https://leetcode.com/problems/group-anagrams)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Hash]%20Group%20Anagrams.py)| |
-|156|Easy|Hash|[ Intersection Of Two Arrays Ii](https://leetcode.com/problems/intersection-of-two-arrays-ii)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Hash]%20Intersection%20Of%20Two%20Arrays%20Ii.py)||
-|157|Easy|Hash|[ Intersection Of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Hash]%20Intersection%20Of%20Two%20Arrays.py)||
+
+
 |158| |Hash|[ Majority Element Ii](https://leetcode.com/problems/majority-element-ii)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Hash]%20Majority%20Element%20Ii.py)| |
 |159| |Hash|[ Replace Elements In An Array](https://leetcode.com/problems/replace-elements-in-an-array)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Hash]%20Replace%20Elements%20In%20An%20Array.py)| |
 |160| |Hash|[ Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Hash]%20Shortest%20Completing%20Word.py)| |
@@ -207,37 +207,37 @@
 |202| |Prefix Sum|[ Find Pivot Index](https://leetcode.com/problems/find-pivot-index)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Prefix%20Sum]%20Find%20Pivot%20Index.py)| |
 |203| |Prefix Sum|[ Path Sum Iii](https://leetcode.com/problems/path-sum-iii)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Prefix%20Sum]%20Path%20Sum%20Iii.py)| |
 |204| |Priority Queue|[ Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Priority%20Queue]%20Sort%20Characters%20By%20Frequency.py)| |
-|205|Easy|Problem Solving|[ Backspace String Compare](https://leetcode.com/problems/backspace-string-compare)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Problem%20Solving]%20Backspace%20String%20Compare.py)||
-|206|Easy|Problem Solving|[ Check If All As Appears Before All Bs](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Problem%20Solving]%20Check%20If%20All%20As%20Appears%20Before%20All%20Bs.py)||
-|207|Easy|Problem Solving|[ Delete Columns To Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Problem%20Solving]%20Delete%20Columns%20To%20Make%20Sorted.py)||
-|208|Easy|Problem Solving|[ Detect Capital](https://leetcode.com/problems/detect-capital)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Problem%20Solving]%20Detect%20Capital.py)||
-|209|Easy|Problem Solving|[ Find The Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Problem%20Solving]%20Find%20The%20Highest%20Altitude.py)||
-|210|Easy|Problem Solving|[ Find The K Beauty Of A Number](https://leetcode.com/problems/find-the-k-beauty-of-a-number)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Problem%20Solving]%20Find%20The%20K%20Beauty%20Of%20A%20Number.py)||
-|211|Easy|Problem Solving|[ Flipping An Image](https://leetcode.com/problems/flipping-an-image)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Problem%20Solving]%20Flipping%20An%20Image.py)| |
-|212|Easy|Problem Solving|[ Number Of 1 Bits](https://leetcode.com/problems/number-of-1-bits)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Problem%20Solving]%20Number%20Of%201%20Bits.py)|To Do: Solve using Bit Manipulation|
+
+
+
+
+
+
+
+
 |213| |QuickSelect|[ Kth Largest Element In An Array](https://leetcode.com/problems/kth-largest-element-in-an-array)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[QuickSelect]%20Kth%20Largest%20Element%20In%20An%20Array.py)| |
-|214|Easy|Sliding Window|[ Delete Characters To Make Fancy String](https://leetcode.com/problems/delete-characters-to-make-fancy-string)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Sliding%20Window]%20Delete%20Characters%20To%20Make%20Fancy%20String.py)||
+
 |215| |Sliding Window|[ Find All Anagrams In A String](https://leetcode.com/problems/find-all-anagrams-in-a-string)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Sliding%20Window]%20Find%20All%20Anagrams%20In%20A%20String.py)| |
 |216| |Sliding Window|[ Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Sliding%20Window]%20Longest%20Repeating%20Character%20Replacement.py)| |
 |217| |Sliding Window|[ Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Sliding%20Window]%20Minimum%20Size%20Subarray%20Sum.py)| |
 |218| |Sliding Window|[ Permutation In String](https://leetcode.com/problems/permutation-in-string)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Sliding%20Window]%20Permutation%20In%20String.py)| |
-|219|Easy|Sliding Window|[ Substrings Of Size Three With Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Sliding%20Window]%20Substrings%20Of%20Size%20Three%20With%20Distinct%20Characters.py)|Follow Up: Longest Substring without repeating characters|
+
 |220| |Sorting|[ K Closest Points To Origin](https://leetcode.com/problems/k-closest-points-to-origin)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Sorting]%20K%20Closest%20Points%20To%20Origin.py)| |
 |221|Medium|Sorting|[ Sort An Array](https://leetcode.com/problems/sort-an-array)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Sorting]%20Sort%20An%20Array.py)|Merge Sort, Quick Sort and Heap Sort|
 |222| |Stack|[ Simplify Path](https://leetcode.com/problems/simplify-path)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Stack]%20Simplify%20Path.py)| |
 |223| |Stack|[ Valid Parentheses](https://leetcode.com/problems/valid-parentheses)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Stack]%20Valid%20Parentheses.py)| |
 |224|Medium|Strings|[ Count And Say](https://leetcode.com/problems/count-and-say)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Strings]%20Count%20And%20Say.py)|DP bottom-up|
 |225|Hard|Strings|[ Design A Text Editor](https://leetcode.com/problems/design-a-text-editor)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Strings]%20Design%20A%20Text%20Editor.py)||
-|226|Easy|Strings|[ First Unique Character In A String](https://leetcode.com/problems/first-unique-character-in-a-string)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Strings]%20First%20Unique%20Character%20In%20A%20String.py)|Ordered Map|
+
 |227|Medium|Strings|[ Groups Of Special Equivalent Strings](https://leetcode.com/problems/groups-of-special-equivalent-strings)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Strings]%20Groups%20Of%20Special%20Equivalent%20Strings.py)| |
-|228|Easy|Strings|[ Longest Palindrome](https://leetcode.com/problems/longest-palindrome)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Strings]%20Longest%20Palindrome.py)|Counter()|
+
 |229|Medium|Strings|[ Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Strings]%20Longest%20Palindromic%20Substring.py)|Expand from middle|
 |230|Medium|Strings|[ Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Strings]%20Longest%20Substring%20Without%20Repeating%20Characters.py)|Very Good Question!|
 |231|Medium|Strings|[ Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Strings]%20Palindromic%20Substrings.py)|Expand both sides|
 |232|Medium|Strings|[ Reverse Words In A String](https://leetcode.com/problems/reverse-words-in-a-string)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Strings]%20Reverse%20Words%20In%20A%20String.py)|Split. Reverse. Join!|
-|233|Easy|Strings|[ Roman To Integer](https://leetcode.com/problems/roman-to-integer)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Strings]%20Roman%20To%20Integer.py)||
+
 |234|Medium|Strings|[ String Compression](https://leetcode.com/problems/string-compression)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Strings]%20String%20Compression.py)||
-|235|Easy|Strings|[ Sum Of Digits Of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Strings]%20Sum%20Of%20Digits%20Of%20String%20After%20Convert.py)|Solve it without built in functions|
+
 |236|Hard|Strings|[ Valid Number](https://leetcode.com/problems/valid-number)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Strings]%20Valid%20Number.py)|Just follow the valid number rules in order|
 |237|Medium|Strings|[ Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Strings]%20Zigzag%20Conversion.py)|Good Question|
 |238|Medium|Topological Sort|[ Course Schedule Ii](https://leetcode.com/problems/course-schedule-ii)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Topological%20Sort]%20Course%20Schedule%20Ii.py)| |
@@ -246,10 +246,10 @@
 |241|Medium|Topological Sort|[ Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Topological%20Sort]%20Minimum%20Height%20Trees.py)| |
 |242|Medium|Trees|[ All Elements In Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Trees]%20All%20Elements%20In%20Two%20Binary%20Search%20Trees.py)|To Do: Implement one pass solution|
 |243| |Trees|[ Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Trees]%20Balanced%20Binary%20Tree.py)| |
-|244|Easy|Trees|[ Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Trees]%20Binary%20Tree%20Inorder%20Traversal.py)| |
-|245|Easy|Trees|[ Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Trees]%20Binary%20Tree%20Postorder%20Traversal.py)| |
-|246|Easy|Trees|[ Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Trees]%20Binary%20Tree%20Preorder%20Traversal.py)| |
-|247|Easy|Trees|[ Convert Sorted Array To Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Trees]%20Convert%20Sorted%20Array%20To%20Binary%20Search%20Tree.py)| |
+
+
+
+
 |248| |Trees|[ Flatten Binary Tree To Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Trees]%20Flatten%20Binary%20Tree%20To%20Linked%20List.py)| |
 |249|Medium|Trees|[ Linked List In Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Trees]%20Linked%20List%20In%20Binary%20Tree.py)|To Do: Solve using KMP Algorithm|
 |250|Medium|Trees|[ Step By Step Directions From A Binary Tree Node To Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Trees]%20Step%20By%20Step%20Directions%20From%20A%20Binary%20Tree%20Node%20To%20Another.py)||
@@ -257,17 +257,17 @@
 |252|Medium|Two Pointers|[ Container With Most Water](https://leetcode.com/problems/container-with-most-wate)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Two%20Pointers]%20Container%20With%20Most%20Water.py)|(0.0)|
 |253|Medium|Two Pointers|[ Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Two%20Pointers]%20Find%20the%20Duplicate%20Number.py)|Floyd's Cycle Detection|
 |254|Hard|Two Pointers|[ Maximum Score Of A Good Subarray](https://leetcode.com/problems/maximum-score-of-a-good-subarray)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Two%20Pointers]%20Maximum%20Score%20Of%20A%20Good%20Subarray.py)|Enjoyed solving it|
-|255|Easy|Two Pointers|[ Move Zeroes](https://leetcode.com/problems/move-zeroes)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Two%20Pointers]%20Move%20Zeroes.py)||
+
 |256|Medium|Two Pointers|[ Next Permutation](https://leetcode.com/problems/next-permutation)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Two%20Pointers]%20Next%20Permutation.py)|Try again :)|
 |257|Medium|Two Pointers|[ Partition Array According To Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Two%20Pointers]%20Partition%20Array%20According%20To%20Given%20Pivot.py)||
 |258|Medium|Two Pointers|[ Push Dominoes](https://leetcode.com/problems/push-dominoes)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Two%20Pointers]%20Push%20Dominoes.py)|Domino effect! Good Question|
 |259|Medium|Two Pointers|[ Rearrange Array Elements By Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Two%20Pointers]%20Rearrange%20Array%20Elements%20By%20Sign.py)|Easier than it looks|
-|260|Easy|Two Pointers|[ Remove Element](https://leetcode.com/problems/remove-element)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Two%20Pointers]%20Remove%20Element.py)|Shift to front|
+
 |261|Medium|Two Pointers|[ Rotate Array](https://leetcode.com/problems/rotate-array)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Two%20Pointers]%20Rotate%20Array.py)|Reverse(Reverse[0:k], Reverse[k+1:])|
-|262|Easy|Two Pointers|[ Search Insert Position](https://leetcode.com/problems/search-insert-position)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Two%20Pointers]%20Search%20Insert%20Position.py)|Binary Search!|
+
 |263|Medium|Two Pointers|[ Sort Colors](https://leetcode.com/problems/sort-colors)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Two%20Pointers]%20Sort%20Colors.py)|Overwrite|
-|264|Easy|Two Pointers|[ Squares Of A Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Two%20Pointers]%20Squares%20Of%20A%20Sorted%20Array.py)|Square of a -ve number is +ve :)|
+
 |265|Medium|Two Pointers|[ Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Two%20Pointers]%20Subarray%20Product%20Less%20Than%20K.py)||
 |266|Medium|Two Pointers|[ Two Sum Ii Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Two%20Pointers]%20Two%20Sum%20Ii%20Input%20Array%20Is%20Sorted.py)| |
-|267|Easy|Two Pointers|[ Two Sum](https://leetcode.com/problems/two-sum)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Two%20Pointers]%20Two%20Sum.py)|Nobody will ever ask this question|
+
 |268|Medium|Union Find|[ Redundant Connection](https://leetcode.com/problems/redundant-connection)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Union%20Find]%20Redundant%20Connection.py)|Need to do more of these|
