@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/diameter-of-binary-tree/
-
+# Easy
+# 
 from typing import Optional, List
 
 class TreeNode:

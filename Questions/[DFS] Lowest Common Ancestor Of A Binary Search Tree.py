@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
-
+# Easy
+# To Do: Read the question carefully. Given tree is a BST
 from typing import Optional, List
 
 class TreeNode:

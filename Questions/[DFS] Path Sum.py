@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/path-sum/
-
+# Easy
+# 
 from typing import Optional, List
 
 class TreeNode:

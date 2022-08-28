@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/number-of-islands/
-
+# Medium
+# Mark all chains, keep track of the count of these chains
 from typing import Optional, List
 class Islands_DFS:
     def __init__(self, grid):

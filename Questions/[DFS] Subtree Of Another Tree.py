@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/subtree-of-another-tree/
-
+# Easy
+# 
 from typing import Optional, List
 
 class TreeNode:

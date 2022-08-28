@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/pacific-atlantic-water-flow/
-
+# Medium
+# atlantic.intersection(pacific): where atlantic and pacific is a set of coordinates from which water can flow to their respective oceans
 from typing import Optional, List
 
 '''EFFECIENT'''

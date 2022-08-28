@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/path-sum-iii/
-
+# Medium
+# Use prefix sum
 from typing import Optional, List
 
 # Definition for a binary tree node.

@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/validate-binary-search-tree/
-
+# Medium
+# 
 from typing import Optional, List
 
 # Definition for a binary tree node.

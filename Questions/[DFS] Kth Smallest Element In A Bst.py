@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/kth-smallest-element-in-a-bst/
-
+# Medium
+# Iterative inorder
 from typing import Optional, List
 
 # Definition for a binary tree node.

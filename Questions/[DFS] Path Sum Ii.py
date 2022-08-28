@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/path-sum-ii
-
+# Medium
+# Use backtracking to check all root-to-leaf paths
 from typing import Optional, List
 
 # Definition for a binary tree node.

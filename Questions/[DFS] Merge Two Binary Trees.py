@@ -1,4 +1,6 @@
 # Question: https://leetcode.com/problems/merge-two-binary-trees/
+# Easy
+# Bunch of (if node is None) checks!
 from typing import Optional, List
 
 class TreeNode:
