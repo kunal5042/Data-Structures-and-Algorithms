@@ -4,7 +4,7 @@
 | Q No.| Difficulty | Category | Question | Solution | Comments | 
 | :------: | --------- | ----------------- | :--------: | :---------: | :---------: |
 |01|Medium|Arrays|[ Beautiful Array](https://leetcode.com/problems/beautiful-array)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Beautiful%20Array.py)|Hard!|
-|02|Medium|Arrays|[ Count Inversions](https://www.codingninjas.com/codestudio/problems/count-inversions_615?leftPanelTab=)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Count%20Inversions.py)| |
+|02|Medium|Arrays|[ Count Inversions](https://www.codingninjas.com/codestudio/problems/count-inversions_615?leftPanelTab=)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Count%20Inversions.py)|Similar to Reverse Pairs|
 |03|Medium|Arrays|[ Equal Row And Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Equal%20Row%20And%20Column%20Pairs.py)|Convert into strings|
 |04|Medium|Arrays|[ Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Find%20All%20Duplicates%20in%20an%20Array.py)|Map indices to numbers|
 |05|Medium|Arrays|[ Game Of Life](https://leetcode.com/problems/game-of-life)|[Answer](https://github.com/kunal5042/LeetCode/blob/main/Questions/[Arrays]%20Game%20Of%20Life.py)|Save state|

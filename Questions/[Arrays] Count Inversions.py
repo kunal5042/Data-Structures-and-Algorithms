@@ -1,5 +1,6 @@
 # Question: https://www.codingninjas.com/codestudio/problems/count-inversions_615?leftPanelTab=0
 # Medium
+# Similar to Reverse Pairs
 from typing import Optional, List
 
 from itertools import count
