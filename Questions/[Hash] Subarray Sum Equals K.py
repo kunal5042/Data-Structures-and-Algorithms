@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/subarray-sum-equals-k/
-
+# Medium
+# Prefix Sum
 '''O(n) Time'''
 class Solution:
     def subarraySum(self, nums, k):

@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/group-anagrams/
-
+# Medium
+# _hash["".join(sorted(string))].append(string)
 from typing import Optional, List
 
 from collections import defaultdict

@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/sort-characters-by-frequency/
-
+# Medium
+# To Do: Solve using Priority Queue ✅
 from typing import Optional, List
 from queue import PriorityQueue as priority
 from collections import Counter

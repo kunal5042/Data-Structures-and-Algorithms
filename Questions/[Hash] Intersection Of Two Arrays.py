@@ -1,6 +1,6 @@
 # Question: https://leetcode.com/problems/intersection-of-two-arrays/
 # Easy
-#
+# To Do: Binary Search
 from typing import Optional, List
 
 class Solution:
@@ -23,6 +23,11 @@ class Solution:
                 result.append(ele)
                 
         return result
+
+
+    # O(n + m) Time and O(n + m) Space
+    def intersection(self, nums1: List[int], nums2: List[int]) -> List[int]:
+        return set(nums1).intersection(set(nums2))
     
     
 '''

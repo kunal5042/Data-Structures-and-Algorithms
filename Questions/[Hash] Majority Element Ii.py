@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/majority-element-ii/
-
+# Medium
+# 
 from typing import Optional, List
 
 from collections import Counter

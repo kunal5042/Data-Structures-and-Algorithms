@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/shortest-completing-word/
-
+# Easy
+# 0.0
 from typing import Optional, List
 
 from collections import Counter

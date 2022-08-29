@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/bulls-and-cows/
-
+# Medium
+# 
 from typing import Optional, List
 
 from collections import Counter

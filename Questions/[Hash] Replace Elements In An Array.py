@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/replace-elements-in-an-array/
-
+# Medium
+# ele : idx
 from typing import Optional, List
 
 class Solution:
