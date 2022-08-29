@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/powx-n/
 # Medium
+# To Do: Solve it using Math
 from typing import Optional, List
 
 class Solution:
