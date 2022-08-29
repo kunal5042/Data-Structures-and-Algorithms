@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/balanced-binary-tree/
-
+# Easy
+# 
 from typing import Optional, List
 
 # Definition for a binary tree node.
