@@ -18,6 +18,27 @@ class Solution:
                 row[left], row[right] = row[right], row[left]
                 left  += 1
                 right -= 1
+
+    def rotate(self, matrix):
+        def transpose():
+            _col = -1
+            for row in range(len(matrix)):
+                _col += 1
+                for col in range(_col, len(matrix[row])):
+                    matrix[row][col], matrix[col][row] = \
+                    matrix[col][row], matrix[row][col]
+                    
+        def reverse_rows():
+            for row in range(len(matrix)):
+                left, right = 0, len(matrix[row])-1
+                while left < right:
+                    matrix[row][left] , matrix[row][right] = \
+                    matrix[row][right], matrix[row][left]
+                    left  += 1
+                    right -= 1
+                    
+        transpose()
+        reverse_rows()
                 
                 
 # Kunal Wadhwa
