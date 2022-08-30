@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/asteroid-collision/
 # Medium
+#
 from typing import Optional, List
 
 class Solution:
