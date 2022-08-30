@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/
 # Medium
+#
 from typing import Optional, List
 
 from collections import Counter
