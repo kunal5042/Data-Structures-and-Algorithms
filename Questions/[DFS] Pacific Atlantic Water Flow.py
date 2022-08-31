@@ -31,6 +31,32 @@ class Solution:
             dfs(row, COLS-1 , heights[row][COLS-1]   , atlantic)
             
         return atlantic.intersection(pacific)
+
+class Solution:
+    def pacificAtlantic(self, heights: List[List[int]]) -> List[List[int]]:
+        HEIGHT, WIDTH = len(heights), len(heights[0])
+        pacific, atlantic = set(), set()
+        
+        def depth_first_search(row, col, ocean):
+            if (row, col) in ocean:
+                return
+            
+            ocean.add((row, col))
+            
+            for r, c in [(1,0), (0,1), (-1,0), (0,-1)]:
+                if 0 <= row+r < HEIGHT and 0 <= col+c < WIDTH:
+                    if heights[row][col] <= heights[row+r][col+c]:
+                        depth_first_search(row+r, col+c, ocean)
+        
+        for col in range(WIDTH):
+            depth_first_search(0, col, pacific)
+            depth_first_search(HEIGHT-1, col, atlantic)
+                
+        for row in range(HEIGHT):
+            depth_first_search(row, 0, pacific)
+            depth_first_search(row, WIDTH-1, atlantic)
+                
+        return pacific.intersection(atlantic)
         
  
 '''BRUTE-FORCE'''
