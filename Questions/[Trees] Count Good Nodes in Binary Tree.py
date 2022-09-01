@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/count-good-nodes-in-binary-tree/
 # Medium
+#
 from typing import Optional, List
 
 # Definition for a binary tree node.
