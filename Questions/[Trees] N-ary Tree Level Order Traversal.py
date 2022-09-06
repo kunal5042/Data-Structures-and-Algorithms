@@ -10,6 +10,7 @@ class Node:
         self.children = children
 """
 
+from collections import deque
 class Solution:
     def levelOrder(self, root: 'Node') -> List[List[int]]:
         def breadth_first_search(node):
