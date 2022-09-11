@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/swap-nodes-in-pairs/
-
+# Medium
 from typing import Optional, List
 
 # Definition for singly-linked list.
@@ -10,6 +10,7 @@ class ListNode:
 
 from collections import deque
 class Solution:
+    # O(n) Time and O(n) Space
     def _swapPairs(self, head: Optional[ListNode]) -> Optional[ListNode]:
         if head is None or head.next is None: return head
         

@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/intersection-of-two-linked-lists/
-
+# Easy
 from typing import Optional, List
 
 # Definition for singly-linked list.

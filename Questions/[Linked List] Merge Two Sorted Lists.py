@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/merge-two-sorted-lists/
-
+# Easy
 from typing import Optional, List
 
 # Definition for singly-linked list.

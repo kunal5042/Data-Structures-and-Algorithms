@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/remove-duplicates-from-sorted-list/
-
+# Easy
 from typing import Optional, List
 
 # Definition for singly-linked list.
@@ -9,6 +9,7 @@ class ListNode:
         self.next = next
 
 class Solution:
+    # O(n) Time and O(1) Space
     def deleteDuplicates(self, head: Optional[ListNode]) -> Optional[ListNode]:
         dummy = previous = ListNode(101)
         current  = head

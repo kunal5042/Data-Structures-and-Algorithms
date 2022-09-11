@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/add-two-numbers/
-
+# Medium
 from typing import Optional, List
 
 # Definition for singly-linked list.
@@ -9,6 +9,7 @@ class ListNode:
         self.next = next
 
 class Solution:
+    # O(n) Time and O(1) Extra Space
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
         head1, head2, head3 = l1, l2, ListNode(-1)
         result_reference = head3

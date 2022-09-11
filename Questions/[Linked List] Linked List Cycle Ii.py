@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/linked-list-cycle-ii/
-
+# Medium
 from typing import Optional, List
 
 # Definition for singly-linked list.

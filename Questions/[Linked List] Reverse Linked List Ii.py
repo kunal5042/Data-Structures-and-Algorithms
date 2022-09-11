@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/reverse-linked-list-ii/
-
+# Medium
 from typing import Optional, List
 
 # Definition for singly-linked list.
@@ -9,6 +9,7 @@ class ListNode:
         self.next = next
 
 class Solution:
+    # O(n) Time and O(1) Space
     def reverseBetween(self, head: Optional[ListNode], left: int, right: int) -> Optional[ListNode]:
         if head is None or left == right: return head
         

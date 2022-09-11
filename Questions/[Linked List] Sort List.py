@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/sort-list/
-
+# Medium
 from typing import Optional, List
 
 # Definition for singly-linked list.

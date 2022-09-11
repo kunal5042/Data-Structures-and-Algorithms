@@ -1,6 +1,8 @@
-# Question: https://leetcode.com/problems/delete-node-in-a-linked-list/submissions/
+# Question: https://leetcode.com/problems/delete-node-in-a-linked-list/
+# Medium
 
 class Solution:
+    # O(n) Time and O(1) Space
     def deleteNode(self, node):
         """
         :type node: ListNode

@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/odd-even-linked-list/
-
+# Medium
 from typing import Optional, List
 
 # Definition for singly-linked list.
@@ -10,6 +10,7 @@ class ListNode:
         
 
 class Solution:
+    # O(n) Time and O(n) Space
     def oddEvenList(self, head: Optional[ListNode]) -> Optional[ListNode]:
         if not head or head.next is None: return head
         

@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/rotate-list/
-
+# Medium
 from typing import Optional, List
 
 # Definition for singly-linked list.
@@ -9,6 +9,7 @@ class ListNode:
         self.next = next
 
 class Solution:
+    # O(n) Time and O(1) Extra Space
     def rotateRight(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
         if not head or k == 0: return head
         

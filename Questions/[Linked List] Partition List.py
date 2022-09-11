@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/partition-list/
-
+# Medium
 from typing import Optional, List
 
 # Definition for singly-linked list.
@@ -9,6 +9,7 @@ class ListNode:
         self.next = next
 
 class Solution:
+    # O(n) Time and O(1) Space
     def partition(self, head: Optional[ListNode], x: int) -> Optional[ListNode]:
 
         smaller, larger = ListNode(5042), ListNode(5010)

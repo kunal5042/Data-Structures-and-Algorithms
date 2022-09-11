@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/remove-linked-list-elements/
-
+# Easy
 from typing import Optional, List
 
 # Definition for singly-linked list.
@@ -9,6 +9,7 @@ class ListNode:
         self.next = next
 
 class Solution:
+    # O(n) Time and O(1) Space
     def removeElements(self, head: Optional[ListNode], val: int) -> Optional[ListNode]:
         """Given head of a linked list and a value, remove all nodes with val == value
         Returns the new head of the linked list

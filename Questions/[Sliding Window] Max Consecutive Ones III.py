@@ -1,8 +1,12 @@
 # Question: https://leetcode.com/problems/max-consecutive-ones-iii/
 # Medium
+# To Do: Optimize Space
+
 from typing import Optional, List
+from collections import deque
 
 class Solution:
+    # O(n) Time and O(n) Space
     def longestOnes(self, nums: List[int], k: int) -> int:
         result = 0
         

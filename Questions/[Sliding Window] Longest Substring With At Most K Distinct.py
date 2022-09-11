@@ -3,7 +3,7 @@
 from typing import Optional, List
 
 class Solution:
-
+    # O(n) Time and O(k) Space
     def longestKSubstr(self, s, k):
         # code here
         if k == 0 or k > len(s) or len(s) == 0:
