@@ -1,4 +1,4 @@
-# Question: https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/
+# Question: https://practice.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1
 # Medium
 from typing import Optional, List
 
