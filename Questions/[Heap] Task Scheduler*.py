@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/task-scheduler/
-
+# Medium
+# Can revisit
 from typing import Optional, List
 
 from collections import Counter, deque

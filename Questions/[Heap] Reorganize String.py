@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/reorganize-string/
-
+# Medium
+# Implement Greedy
 from typing import Optional, List
 
 from collections import Counter

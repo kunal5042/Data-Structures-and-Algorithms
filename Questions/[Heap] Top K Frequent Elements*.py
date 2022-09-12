@@ -1,4 +1,5 @@
 # Question: https://leetcode.com/problems/top-k-frequent-elements/
+# Medium
 
 from typing import Optional, List
 from collections import Counter

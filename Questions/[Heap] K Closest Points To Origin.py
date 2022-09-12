@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/k-closest-points-to-origin/
-
+# Medium
 from typing import Optional, List
 from functools import cmp_to_key as cmp
 import heapq as heap
@@ -31,7 +31,6 @@ class Solution:
         points.sort(key=lambda x: x[1])
         result = list(map(lambda x: x[0], points))
         return result[:k]
-            
     
     
     # O(n**2) Worst Time and O(1) Space
