@@ -1,5 +1,5 @@
-# Q: https://leetcode.com/problems/find-peak-element/
-
+# Question: https://leetcode.com/problems/find-peak-element/
+# Medium
 '''
 O(log(n)) using Binary Search
 
@@ -18,9 +18,9 @@ Or, one of the next elements in that direction will be smaller, making the previ
 
 Hence, we can apply the following logic
 '''
-
-
+from typing import List, Optional
 class Solution:
+    # O(log(n)) Time and O(1) Space
     # Cleaner
     def findPeakElement(self, nums):
         left, right = 0, len(nums)-1

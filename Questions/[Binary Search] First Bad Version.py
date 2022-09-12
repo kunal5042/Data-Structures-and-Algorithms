@@ -1,9 +1,10 @@
 # Question: https://leetcode.com/problems/first-bad-version/
-
+# Easy
 from typing import Optional, List
 
 # The isBadVersion API is already defined for you.
-# def isBadVersion(version: int) -> bool:
+def isBadVersion(version: int) -> bool:
+    pass
 
 class Solution:
     # O(log(n)) Time and O(1) Space

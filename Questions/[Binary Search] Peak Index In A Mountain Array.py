@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/peak-index-in-a-mountain-array/
-
+# Medium
+# Direction is the key
 from typing import Optional, List
 
 class Solution:

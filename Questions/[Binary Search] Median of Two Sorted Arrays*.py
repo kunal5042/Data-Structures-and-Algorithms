@@ -2,6 +2,7 @@
 # Hard
 # Constraint: Time complexity should be O(log(m+n))
 
+from typing import List, Optional
 class Solution:
     # Time: log(min(n, m))
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:

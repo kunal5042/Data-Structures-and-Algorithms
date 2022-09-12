@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/search-a-2d-matrix/
-
+# Medium
+# To Do: Binary Search entire matrix at each iteration
 from typing import Optional, List
 
 class Solution:

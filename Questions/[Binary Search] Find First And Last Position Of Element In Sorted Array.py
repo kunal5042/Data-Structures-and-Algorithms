@@ -1,8 +1,10 @@
 # Question: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+# Medium
 
 from typing import Optional, List
 
 class Solution:
+    # O(log(n)) Time and O(1) Space
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         """Takes a sorted list of integers and an integer target.
         Finds out the range in which the target integer is present in the sorted list.

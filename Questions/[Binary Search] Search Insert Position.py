@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/search-insert-position/
-
+# Easy
 from typing import Optional, List
 
 class Solution:

@@ -1,8 +1,10 @@
 # Question: https://leetcode.com/problems/search-in-rotated-sorted-array/
-
+# Medium
+# To Do: Revisit
 from typing import Optional, List
 
 class Solution:
+    # O(log(n)) Time and O(1) Space
     def search(self, nums: List[int], target: int) -> int:
         left, right = 0, len(nums)-1
         

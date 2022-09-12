@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/range-sum-of-bst/
-
+# Easy
 from typing import Optional, List
 
 # Definition for a binary tree node.

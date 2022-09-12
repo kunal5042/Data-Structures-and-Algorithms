@@ -1,8 +1,9 @@
 # Question: https://leetcode.com/problems/find-smallest-letter-greater-than-target/
-
+# Easy
 from typing import Optional, List
 
 class Solution:
+    # O(log(n)) Time and O(1) Space
     def nextGreatestLetter(self, letters: List[str], target: str) -> str:
         """ Takes a non-decreasing characters array and a target character
         Finds and returns the smallest character in the array that is larger

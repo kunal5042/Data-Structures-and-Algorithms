@@ -1,5 +1,6 @@
 # Question: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
-
+# Medium
+# To Do: Revisit
 from typing import Optional, List
 
 class Solution:
