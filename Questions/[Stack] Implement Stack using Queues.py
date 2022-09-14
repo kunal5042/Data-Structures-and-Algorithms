@@ -1,7 +1,7 @@
 # Question: https://leetcode.com/problems/implement-stack-using-queues/
 # Easy
 from typing import Optional, List
-
+from collections import deque
 class Queue:
     def __init__(self):
         self.queue = deque()
