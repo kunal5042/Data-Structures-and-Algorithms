@@ -12,6 +12,7 @@ def monotonous_insert(stack, val):
     monotonous_insert(stack, val)
     stack.append(popped)
         
+# O(n^2) Time and O(n) Space
 def sortStack(stack):
     if len(stack) == 0:
         return
@@ -20,7 +21,6 @@ def sortStack(stack):
     sortStack(stack)
     monotonous_insert(stack, popped)
     return stack
-    
     
 '''
 
