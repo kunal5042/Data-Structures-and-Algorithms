@@ -121,3 +121,106 @@ class LRUCache:
 # Kunal Wadhwa
 
 '''
+
+class DLLN:
+    def __init__(self, value, frequency=0):
+        self.val = value
+        self.next = None
+        self.prev = None
+        self.freq = frequency
+        
+class LFUCache:
+
+    def __init__(self, capacity: int):
+        self.cache = {}
+        self.nodes = {}
+        self.capacity = capacity
+        self.head = DLLN(-1, float('-inf'))
+        self.tail = DLLN(-1, float('inf'))
+        self.tail.prev = self.head
+        self.head.next = self.tail
+        
+    def traverse(self):
+        current = self.head
+        while current is not None:
+            if current.val != -1:
+                print(current.val, ':', self.cache[current.val], end=',  ')
+            else:
+                print(current.val, ': +-inf', end=',  ')
+
+            current = current.next
+        print()
+
+    def get(self, key: int) -> int:
+        # self.traverse()
+        if key not in self.cache:
+            return -1
+        
+        self.update(key)
+        return self.cache[key]
+    
+    def update(self, key):
+        node = self.nodes[key]
+        node.freq += 1
+        
+        while node.freq >= node.next.freq:
+            previous_node = node.prev
+            next_node = node.next
+            
+            previous_node.next = next_node
+            next_node.prev = previous_node
+            
+            node.next = next_node.next
+            next_node.next = node
+            node.prev = next_node
+
+    def put(self, key: int, value: int) -> None:
+        # print(f'traverse for {key} and {value}')
+        # self.traverse()
+        if key in self.cache:
+            self.cache[key] = value
+            self.update(key)
+            return
+        
+        self.nodes[key] = DLLN(key)
+        
+        if len(self.cache) < self.capacity:
+            self.cache[key] = value
+            self.insert_node(key)
+            return
+
+        # capacity-full
+        if self.capacity == 0:
+            return
+        
+        invalidated_key = self.head.next.val
+        del self.cache[invalidated_key]
+        del self.nodes[invalidated_key]
+        
+        invalidated_node = self.head.next
+        self.head.next = invalidated_node.next
+        invalidated_node.prev = self.head
+        
+        self.cache[key] = value
+        self.insert_node(key)
+        
+    def insert_node(self, key):
+        previous_node  = self.head
+        next_node = self.head.next
+
+        previous_node.next = self.nodes[key]
+        self.nodes[key].prev = previous_node
+
+        self.nodes[key].next = next_node
+        next_node.prev = self.nodes[key]
+
+        self.update(key)
+        
+        
+        
+        
+
+# Your LFUCache object will be instantiated and called as such:
+# obj = LFUCache(capacity)
+# param_1 = obj.get(key)
+# obj.put(key,value)
