@@ -36,8 +36,6 @@ class WordDictionary:
                     if helper(idx+1, word, node[key]) is True:
                         return True
                 return False
-            
-            return True
         
         return helper(0, word, self.root)
 
