@@ -1,7 +1,7 @@
 # Question: https://leetcode.com/problems/design-a-number-container-system/
 # Medium
 from typing import Optional, List
-
+from collections import defaultdict
 from heapq import heappop, heappush
 class NumberContainers:
 
