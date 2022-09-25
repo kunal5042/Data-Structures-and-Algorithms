@@ -1,7 +1,7 @@
 # Question: https://leetcode.com/problems/design-a-food-rating-system/
 # Medium
 from typing import Optional, List
-
+from collections import defaultdict
 from heapq import heapify, heappop, heappush
 class FoodRatings:
 
