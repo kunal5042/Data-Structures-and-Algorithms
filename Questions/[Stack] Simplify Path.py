@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/simplify-path/
-
+# Medium
 from typing import Optional, List
 
 class Solution:

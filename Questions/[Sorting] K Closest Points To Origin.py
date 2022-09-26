@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/k-closest-points-to-origin/
-
+# Medium
 from typing import Optional, List
 from functools import cmp_to_key as cmp
 

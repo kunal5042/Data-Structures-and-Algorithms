@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/valid-parentheses/
-
+# Easy
 from typing import Optional, List
 
 class Solution:

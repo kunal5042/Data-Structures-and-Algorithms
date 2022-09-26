@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/kth-largest-element-in-an-array/
-
+# Medium
 from typing import Optional, List
 
 # Quick Select Implementation

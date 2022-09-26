@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/path-sum-iii/
-
+# Medium
 from typing import Optional, List
 
 # Definition for a binary tree node.
@@ -10,6 +10,7 @@ class TreeNode:
         self.right = right
         
 class Solution:
+    # O(n) Time and O(n) Space
     def pathSum(self, root: Optional[TreeNode], targetSum: int) -> int:
         if root is None: return 0
         result = [0]
@@ -28,6 +29,7 @@ class Solution:
             
             solve(node.left , prefix_sum, hashmap)
             solve(node.right, prefix_sum, hashmap)
+            # 
             hashmap[prefix_sum] -= 1
             
             return

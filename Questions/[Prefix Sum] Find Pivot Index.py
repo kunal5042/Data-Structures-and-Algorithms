@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/find-pivot-index/
-
+# Easy
 from typing import Optional, List
 
 class Solution:
