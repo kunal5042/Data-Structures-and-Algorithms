@@ -5,13 +5,11 @@ def uniq_sum(array, k):
 
     while k > 0 and len(heap) > 0:
         max_ele = heappop(heap)
-        heappush(heap, max_ele/2)
-        heappush(heap, max_ele/2)
+        heappush(max_ele/2)
+        heappush(max_ele/2)
         k -= 1
 
     answer = sum(set(heap))
-    return int(-answer)
+    return -answer
 
-print(uniq_sum([2,4,16], 1))
-
-
+print(uniq_sum())
