@@ -1,7 +1,8 @@
 # Question: https://leetcode.com/problems/my-calendar-iii/
 # Hard
-from typing import Optional, List
+# To Do: Implement using Segment Tree
 
+from typing import Optional, List
 from sortedcontainers import SortedDict
 
 # O(n*n) Time complexity and O(n) Space complexity
