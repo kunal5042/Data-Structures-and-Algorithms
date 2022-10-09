@@ -10,6 +10,7 @@ class TreeNode:
         self.right = right
 
 class Solution:
+    # O(n) Time and O(h) Space
     def findTarget(self, root: Optional[TreeNode], k: int) -> bool:
         stack = []
         cache = set()
