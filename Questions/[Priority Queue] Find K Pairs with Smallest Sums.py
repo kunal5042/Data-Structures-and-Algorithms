@@ -1,7 +1,7 @@
 # Question: https://leetcode.com/problems/find-k-pairs-with-smallest-sums/
 # Medium
 from typing import Optional, List
-
+from heapq import heappop, heappush
 class Solution:
     # O(k * log(k)) Time
     def kSmallestPairs(self, nums1: List[int], nums2: List[int], k: int) -> List[List[int]]:
