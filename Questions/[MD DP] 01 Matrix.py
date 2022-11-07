@@ -1,9 +1,10 @@
 # Question: https://leetcode.com/problems/01-matrix/
 # Medium
 from typing import Optional, List
-from collections import deque
+
 class Solution:
-    # O(V+E) Time
+    # BFS Solution
+    # O(V+E) Time 
     def updateMatrix(self, mat: List[List[int]]) -> List[List[int]]:
         HEIGHT, WIDTH = len(mat), len(mat[0])
         output = [[float('inf') for _ in range(WIDTH)] for _ in range(HEIGHT)]
@@ -33,6 +34,27 @@ class Solution:
                     queue.append((0, row, col))
                 
         expand()
+        return output
+    
+    # Multidimensional Dynamic Programming
+    def updateMatrix(self, mat: List[List[int]]) -> List[List[int]]:
+        HEIGHT, WIDTH = len(mat), len(mat[0])
+        output = mat
+        
+        for row in range(0, HEIGHT):
+            for col in range(0, WIDTH):
+                if output[row][col] != 0:
+                    top = output[row-1][col] if row > 0 else float('inf')
+                    back = output[row][col-1] if col > 0 else float('inf')
+                    output[row][col] = min(top, back) + 1
+                    
+        for row in reversed(range(0, HEIGHT)):
+            for col in reversed(range(0, WIDTH)):
+                if output[row][col] != 0:
+                    down = output[row+1][col] if row+1 < HEIGHT else float('inf')
+                    right = output[row][col+1] if col+1 < WIDTH else float('inf')
+                    output[row][col] = min(output[row][col], down+1, right+1)
+
         return output
 '''
 
