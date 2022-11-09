@@ -1,4 +1,4 @@
-![cover image](https://github.com/kunal5042/Data-Structures-and-Algorithms/blob/main/Images/Data-Structures-and-Algorithms.jpeg)
+![cover image](https://github.com/kunal5042/Data-Structures-and-Algorithms/blob/main/Images/DSA-is-important.jpg)
 [![Active](http://img.shields.io/badge/Status-Active-green.svg)](https://github.com/kunal5042/Data-Structures-and-Algorithms)
 [![Generic badge](https://img.shields.io/badge/lang-python-yellow.svg)](https://www.python.org/)
 | Q No.| Difficulty | Category | Question | Solution | 
