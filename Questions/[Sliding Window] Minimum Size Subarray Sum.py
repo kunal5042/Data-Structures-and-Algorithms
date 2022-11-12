@@ -1,4 +1,5 @@
 # Question: https://leetcode.com/problems/minimum-size-subarray-sum/
+# Medium
 
 from typing import Optional, List
 

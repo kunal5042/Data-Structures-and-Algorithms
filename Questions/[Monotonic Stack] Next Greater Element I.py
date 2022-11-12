@@ -1,5 +1,5 @@
 # Question: https://leetcode.com/problems/next-greater-element-i/
-
+# Easy
 from typing import Optional, List
 
 class Solution:

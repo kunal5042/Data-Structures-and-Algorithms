@@ -1,7 +1,8 @@
 # Question: https://leetcode.com/problems/longest-repeating-character-replacement/
+# Medium
 
 from typing import Optional, List
-
+from collections import Counter
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
         """Takes a string s and an integer k

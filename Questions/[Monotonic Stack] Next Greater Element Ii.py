@@ -1,4 +1,5 @@
 # Question: https://leetcode.com/problems/next-greater-element-ii/
+# Medium
 
 from typing import Optional, List
 

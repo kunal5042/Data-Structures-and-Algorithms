@@ -1,4 +1,5 @@
 # Question: https://leetcode.com/problems/permutation-in-string/
+# Medium
 
 from typing import Optional, List
 

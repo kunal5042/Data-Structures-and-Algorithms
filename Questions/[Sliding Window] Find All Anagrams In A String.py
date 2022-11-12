@@ -1,4 +1,5 @@
 # Question: https://leetcode.com/problems/find-all-anagrams-in-a-string/
+# Medium
 
 from typing import Optional, List
 

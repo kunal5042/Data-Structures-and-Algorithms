@@ -1,4 +1,5 @@
 # Question: https://leetcode.com/problems/target-sum/
+# Medium
 
 from typing import Optional, List
 

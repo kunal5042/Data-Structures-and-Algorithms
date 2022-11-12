@@ -1,4 +1,5 @@
 # Question: https://leetcode.com/problems/remove-duplicate-letters/
+# Medium
 
 from typing import Optional, List
 
