@@ -1,4 +1,5 @@
 # Question: https://leetcode.com/problems/advantage-shuffle/
+# Medium
 
 from typing import Optional, List
 from collections import defaultdict

@@ -1,4 +1,5 @@
 # Question: https://leetcode.com/problems/boats-to-save-people/
+# Medium
 
 from typing import Optional, List
 

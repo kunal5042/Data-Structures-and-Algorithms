@@ -1,4 +1,5 @@
 # Question: https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/
+# Medium
 
 from typing import Optional, List
 

@@ -1,4 +1,5 @@
 # Question: https://leetcode.com/problems/score-after-flipping-matrix/
+# Medium
 
 from typing import Optional, List
 
