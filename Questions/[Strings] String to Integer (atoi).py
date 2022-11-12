@@ -3,6 +3,7 @@
 from typing import Optional, List
 
 class Solution:
+    # O(n) Time and O(1) Space
     def myAtoi(self, s: str) -> int:
         if len(s) == 0: return 0
         idx, sign, integer = 0, '+ve', []
