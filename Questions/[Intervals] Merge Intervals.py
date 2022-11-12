@@ -1,4 +1,5 @@
 # Question: https://leetcode.com/problems/merge-intervals/
+# Medium
 
 from typing import Optional, List
 

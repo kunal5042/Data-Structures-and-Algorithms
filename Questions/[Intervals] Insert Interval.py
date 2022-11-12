@@ -1,4 +1,5 @@
 # Question: https://leetcode.com/problems/insert-interval/
+# Medium
 
 from typing import Optional, List
 
