@@ -1,4 +1,5 @@
 # Question: https://leetcode.com/problems/n-th-tribonacci-number/
+# Easy
 
 from typing import Optional, List
 

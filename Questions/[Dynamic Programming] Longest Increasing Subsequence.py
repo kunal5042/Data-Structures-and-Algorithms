@@ -1,4 +1,5 @@
 # Question: https://leetcode.com/problems/longest-increasing-subsequence/
+# Medium
 
 from typing import Optional, List
 

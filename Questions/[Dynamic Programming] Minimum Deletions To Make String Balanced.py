@@ -1,4 +1,5 @@
 # Question: https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/
+# Medium
 
 from typing import Optional, List
 

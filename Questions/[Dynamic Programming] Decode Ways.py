@@ -1,4 +1,5 @@
 # Question: https://leetcode.com/problems/decode-ways/
+# Medium
 
 from typing import Optional, List
 

@@ -1,4 +1,5 @@
 # Question: https://leetcode.com/problems/ugly-number-ii/
+# Medium
 
 from typing import Optional, List
 

@@ -1,4 +1,5 @@
 # Question: https://leetcode.com/problems/house-robber/
+# Medium
 
 from typing import Optional, List
 

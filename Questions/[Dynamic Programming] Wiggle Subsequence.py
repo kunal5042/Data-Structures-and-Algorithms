@@ -1,4 +1,5 @@
 # Question: https://leetcode.com/problems/wiggle-subsequence/
+# Medium
 
 from typing import Optional, List
 

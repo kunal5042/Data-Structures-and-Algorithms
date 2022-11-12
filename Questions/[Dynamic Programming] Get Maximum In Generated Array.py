@@ -1,4 +1,5 @@
 # Question: https://leetcode.com/problems/get-maximum-in-generated-array/
+# Easy
 
 from typing import Optional, List
 

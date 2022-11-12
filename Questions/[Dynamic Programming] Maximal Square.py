@@ -1,4 +1,5 @@
 # Question: https://leetcode.com/problems/maximal-square/
+# Medium
 
 from typing import Optional, List
 

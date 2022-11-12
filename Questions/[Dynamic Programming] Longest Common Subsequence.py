@@ -1,4 +1,5 @@
 # Question: https://leetcode.com/problems/longest-common-subsequence/
+# Medium
 
 from typing import Optional, List
 

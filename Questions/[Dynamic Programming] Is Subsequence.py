@@ -1,4 +1,5 @@
 # Question: https://leetcode.com/problems/is-subsequence/
+# Easy
 
 from typing import Optional, List
 

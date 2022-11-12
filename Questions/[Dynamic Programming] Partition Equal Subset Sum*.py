@@ -1,4 +1,5 @@
 # Question: https://leetcode.com/problems/partition-equal-subset-sum/
+# Medium
 
 from typing import Optional, List
 

@@ -1,4 +1,5 @@
 # Question: https://leetcode.com/problems/fibonacci-number/
+# Medium
 
 from typing import Optional, List
 

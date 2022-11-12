@@ -1,4 +1,5 @@
 # Question: https://leetcode.com/problems/unique-paths/
+# Medium
 
 from typing import Optional, List
 
