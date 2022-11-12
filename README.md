@@ -3,6 +3,7 @@
 [![Generic badge](https://img.shields.io/badge/lang-python-yellow.svg)](https://www.python.org/)
 | Q No.| Difficulty | Category | Question | Solution | 
 | :------: | --------- | ----------------- | :--------: | :---------: |
+|01|Medium|Arrays|[ 4Sum II](https://leetcode.com/problems/4sum-ii)|[Answer](https://github.com/kunal5042/Data-Structures-and-Algorithms/blob/main/Questions/[Arrays]%204Sum%20II.py)|
 |02|Medium|Arrays|[ Beautiful Array](https://leetcode.com/problems/beautiful-array)|[Answer](https://github.com/kunal5042/Data-Structures-and-Algorithms/blob/main/Questions/[Arrays]%20Beautiful%20Array.py)|
 |03|Easy|Arrays|[ Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array)|[Answer](https://github.com/kunal5042/Data-Structures-and-Algorithms/blob/main/Questions/[Arrays]%20Convert%201D%20Array%20Into%202D%20Array.py)|
 |04|Medium|Arrays|[ Count Inversions](https://www.codingninjas.com/codestudio/problems/count-inversions_615?leftPanelTab=)|[Answer](https://github.com/kunal5042/Data-Structures-and-Algorithms/blob/main/Questions/[Arrays]%20Count%20Inversions.py)|
