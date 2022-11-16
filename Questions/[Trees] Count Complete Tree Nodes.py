@@ -4,7 +4,7 @@ from typing import Optional, List
 
 # O(log(n) * log(n)) time and O(h) space
 class Solution:
-    def countNodes(self, root: Optional[TreeNode]) -> int:
+    def countNodes(self, root) -> int:
         def get_height(node, direction):
             if node is None: return 1
             height = 2
