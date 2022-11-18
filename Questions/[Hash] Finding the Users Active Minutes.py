@@ -1,7 +1,7 @@
 # Question: https://leetcode.com/problems/finding-the-users-active-minutes/
 # Medium
 from typing import Optional, List
-
+from collections import defaultdict
 class Solution:
     # O(n) time and O(n) space
     def findingUsersActiveMinutes(self, logs: List[List[int]], k: int) -> List[int]:
