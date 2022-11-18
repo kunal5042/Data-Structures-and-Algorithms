@@ -1,7 +1,7 @@
 # Question: https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/
 # Medium
 from typing import Optional, List
-
+from collections import defaultdict
 class Solution:
     # O(n*k) time and O(n*k) space
     def maxFreq(self, s: str, max_letters: int, min_size: int, max_size: int) -> int:
