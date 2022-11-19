@@ -1,7 +1,7 @@
 # Question: https://leetcode.com/problems/lemonade-change/
 # Easy
 from typing import Optional, List
-
+from collections import defaultdict
 class Solution:
     # O(n) time and O(1) space
     def lemonadeChange(self, bills: List[int]) -> bool:
