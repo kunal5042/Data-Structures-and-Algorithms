@@ -32,6 +32,25 @@ class Solution:
                 perfect_square = square_root*square_root
                 
         return Solution.subproblem[n]
+
+    # similar approach
+    def numSquares(self, n: int) -> int:
+        denoms = [1]
+        x = 2
+        while x*x <= n:
+            denoms.append(x*x)
+            x += 1
+            
+        min_squares = [float('inf') for _ in range(n+1)]
+        min_squares[0] = 0
+        
+        for denom in denoms:
+            for weight in range(1, len(min_squares)):
+                if denom <= weight:
+                    min_squares[weight] = min(min_squares[weight-denom] + 1, min_squares[weight])
+                    
+        return min_squares[n]
+
 '''
 
 # Kunal Wadhwa

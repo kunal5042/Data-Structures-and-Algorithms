@@ -1,7 +1,7 @@
 # Question: https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/
 # Medium
 from typing import Optional, List
-
+from collections import deque
 class Solution:
     # O(m*n) time and O(max(m, n)) space
     def nearestExit(self, maze: List[List[str]], entrance: List[int]) -> int:
