@@ -1,24 +1,25 @@
 # Question: https://leetcode.com/problems/arithmetic-slices-ii-subsequence/
 # Hard
 from typing import Optional, List
+from collections import defaultdict
 
 class Solution:
     # O(n*n) time and o(n*n) space
     def numberOfArithmeticSlices(self, nums: List[int]) -> int:
-        output = 0
+        arith_subseqs = 0
         dp = [defaultdict(int) for _ in range(len(nums))]
         
         for idx in range(1, len(nums)):
             for jdx in range(idx):
-                delta = nums[idx] - nums[jdx]
+                difference = nums[idx] - nums[jdx]
                 _sum = 0
-                if delta in dp[jdx]:
-                    _sum += dp[jdx][delta]
+                if difference in dp[jdx]:
+                    _sum += dp[jdx][difference]
                     
-                dp[idx][delta] += _sum + 1
-                output += _sum
+                dp[idx][difference] += _sum + 1
+                arith_subseqs += _sum
                 
-        return output
+        return arith_subseqs
 
 
 # November 27, 2022
