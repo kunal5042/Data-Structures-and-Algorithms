@@ -1,7 +1,8 @@
 # Question: https://leetcode.com/problems/maximum-profit-in-job-scheduling/
 # Hard
 from typing import Optional, List
-
+from bisect import bisect_left
+from functools import cache
 class Solution:
     # O(2**n) time
     def jobScheduling(self, start_time: List[int], end_time: List[int], profit: List[int]) -> int:
