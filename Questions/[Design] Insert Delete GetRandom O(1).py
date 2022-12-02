@@ -1,7 +1,7 @@
 # Question: https://leetcode.com/problems/insert-delete-getrandom-o1/
 # Medium
 from typing import Optional, List
-
+import random
 class RandomizedSet:
     # O(1) time for all methods
     def __init__(self):
