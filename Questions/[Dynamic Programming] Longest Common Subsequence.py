@@ -7,9 +7,6 @@ class Solution:
     # O(2^(m+n)) time
     def longestCommonSubsequence(self, text1: str, text2: str) -> int:
         longest = [0]
-        
-        if len(text1) > len(text2):
-            text1, text2 = text2, text1
             
         def helper(idx1, idx2, length):
             longest[0] = max(longest[0], length)
@@ -17,9 +14,11 @@ class Solution:
             if idx1 == len(text1) or idx2 == len(text2):
                 return
 
+            # explore this path, as it will maximize the length
             if text1[idx1] == text2[idx2]:
                 helper(idx1+1, idx2+1, length+1)
             else:
+                # explore other paths
                 helper(idx1+1, idx2  , length)
                 helper(idx1  , idx2+1, length)
             return
@@ -30,12 +29,13 @@ class Solution:
     # O(m*n) time: where n and m are the length of the two strings
     def longestCommonSubsequence(self, text1: str, text2: str) -> int:
         memo = {}
+        # tail-recursion
         def helper(idx1, idx2):
             if idx1 == len(text1) or idx2 == len(text2):
                 return 0
             
-            if (idx1, idx2) in memo:
-                return memo[(idx1, idx2)]
+            # memoization-optimization
+            if (idx1, idx2) in memo: return memo[(idx1, idx2)]
 
             if text1[idx1] == text2[idx2]:
                 memo[(idx1, idx2)] = 1 + helper(idx1+1, idx2+1)
