@@ -4,7 +4,53 @@
 from typing import Optional, List
 
 class Solution:
-    # O(m*n) Time and Space: where n and m are the length of the two strings
+    # O(2^(m+n)) time
+    def longestCommonSubsequence(self, text1: str, text2: str) -> int:
+        longest = [0]
+        
+        if len(text1) > len(text2):
+            text1, text2 = text2, text1
+            
+        def helper(idx1, idx2, length):
+            longest[0] = max(longest[0], length)
+
+            if idx1 == len(text1) or idx2 == len(text2):
+                return
+
+            if text1[idx1] == text2[idx2]:
+                helper(idx1+1, idx2+1, length+1)
+            else:
+                helper(idx1+1, idx2  , length)
+                helper(idx1  , idx2+1, length)
+            return
+        
+        helper(0, 0, 0)
+        return longest[0]
+    
+    # O(m*n) time: where n and m are the length of the two strings
+    def longestCommonSubsequence(self, text1: str, text2: str) -> int:
+        memo = {}
+        def helper(idx1, idx2):
+            if idx1 == len(text1) or idx2 == len(text2):
+                return 0
+            
+            if (idx1, idx2) in memo:
+                return memo[(idx1, idx2)]
+
+            if text1[idx1] == text2[idx2]:
+                memo[(idx1, idx2)] = 1 + helper(idx1+1, idx2+1)
+                
+            else:
+                memo[(idx1, idx2)] = max(
+                    helper(idx1+1, idx2), 
+                    helper(idx1  , idx2+1)
+                )
+            
+            return memo[(idx1, idx2)]
+        
+        return helper(0, 0)
+
+    # O(m*n) time and space: where n and m are the length of the two strings
     def longestCommonSubsequence(self, text1: str, text2: str) -> int:
         # Based on Levenshtein distance
         
