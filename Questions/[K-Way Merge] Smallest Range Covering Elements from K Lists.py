@@ -1,6 +1,7 @@
 # Question: https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/
 # Hard
 from typing import Optional, List
+from heapq import heappush, heappop
 
 class Solution:
     # O(n * log(m)) - where n is the total number of elements in all lists
