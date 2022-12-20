@@ -1,9 +1,10 @@
 # Question: https://leetcode.com/problems/sliding-window-median/
 # Hard
-from typing import Optional, List
-
 # To Do: Solve using two heaps
+
+from typing import Optional, List
 import bisect
+
 class LinkedListNode:
     def __init__(self, val):
         self.val = val
