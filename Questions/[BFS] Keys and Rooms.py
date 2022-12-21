@@ -1,6 +1,7 @@
 # Question: https://leetcode.com/problems/keys-and-rooms/
 # Medium
 from typing import Optional, List
+from collections import deque
 
 class Solution:
     # O(n + e) time and O(n) space
