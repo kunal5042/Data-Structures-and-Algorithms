@@ -2,6 +2,7 @@
 # Medium
 from typing import Optional, List
 
+# I don't know the time complexity, it needs to be updated
 class Solution:
     cache_dom = {0:1, 1:1, 2:2}
     cache_trom = {0:0, 1:0, 2:1}
