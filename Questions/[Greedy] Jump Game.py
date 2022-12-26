@@ -3,22 +3,6 @@
 from typing import Optional, List
 
 class Solution:
-    def canJump(self, nums: List[int]) -> bool:
-        can_reach = [False for _ in range(len(nums))]
-        can_reach[0] = True
-        
-        for idx in range(len(can_reach)):
-            if can_reach[idx] is True:
-                max_jump = nums[idx]
-                
-                for offset in range(1, max_jump+1):
-                    if idx + offset >= len(nums)  : break
-                    if idx + offset == len(nums)-1: return True
-                    can_reach[idx+offset] = True
-                    
-        
-        return can_reach[~0]
-    
     # Greedy
     # O(n) Time and O(1) Space
     def canJump(self, nums: List[int]) -> bool:
@@ -34,6 +18,18 @@ class Solution:
             if idx > max_reach: return False
             max_reach = max(idx + nums[idx], max_reach)
             
+        return max_reach >= len(nums)-1
+
+    # O(n) time and O(1) space
+    # solved again recently as part of daily leetcode challenge
+    def canJump(self, nums: List[int]) -> bool:
+        max_reach = 0
+        
+        for idx in range(len(nums)):
+            if idx > max_reach: return False
+            if idx + nums[idx] > max_reach:
+                max_reach = idx + nums[idx]
+                
         return max_reach >= len(nums)-1
 '''
 
