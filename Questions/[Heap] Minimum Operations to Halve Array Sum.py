@@ -1,6 +1,7 @@
 # Question: https://leetcode.com/problems/minimum-operations-to-halve-array-sum/
 # Medium
 from typing import Optional, List
+from heapq import heapify, heappop, heappush
 
 class Solution:
     # O(n * log(n)) time and O(n) space
