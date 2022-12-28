@@ -24,8 +24,6 @@ class Solution:
                         subarray_sum -= nums[start]
                         start += 1
                         continue
-                        
-                        break
                     
             end += 1
             
@@ -39,6 +37,28 @@ class Solution:
 # If window sum >= target
 # as long as the above condition holds true, reduce the window size from left
 # and keep updating the result
+
+# solved again, recently
+class Solution:
+    # O(n) time and O(1) space
+    def minSubArrayLen(self, target: int, nums: List[int]) -> int:
+        minimum_length = float('inf')
+        window_start = -1
+        subarray_sum = 0
+        
+        for idx in range(len(nums)):
+            subarray_sum += nums[idx]
+
+            while subarray_sum >= target:
+                minimum_length = min(minimum_length, idx - window_start)
+                subarray_sum -= nums[window_start+1]
+                window_start += 1
+                
+        return minimum_length if minimum_length != float('inf') else 0
+    
+    # clarifying questions
+    # can nums[i] be equal to zero?
+    # can target be equal to zero?
 
 '''
 
