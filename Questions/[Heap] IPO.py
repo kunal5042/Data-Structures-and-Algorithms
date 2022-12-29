@@ -1,6 +1,8 @@
 # Question: https://leetcode.com/problems/ipo/
 # Hard
+
 from typing import Optional, List
+from heapq import heappop, heappush
 
 class Solution:
     # O(n*log(n)) time and O(n) space
