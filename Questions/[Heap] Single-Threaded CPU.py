@@ -1,7 +1,8 @@
 # Question: https://leetcode.com/problems/single-threaded-cpu/
 # Medium
 from typing import Optional, List
-
+from collections import defaultdict
+from heapq import heapify, heappop, heappush
 class Solution:
     def getOrder(self, tasks: List[List[int]]) -> List[int]:
         # maps time instant to the tasks which are available for processing at that time
