@@ -44,6 +44,33 @@ class Solution:
                 
         find_paths([0], source)
         return paths
+
+    # same logic, short implementation
+    def allPathsSourceTarget(self, graph: List[List[int]]) -> List[List[int]]:
+        paths = []
+        def depth_first_search(path):
+            if path[~0] == len(graph)-1:
+                paths.append(path.copy())
+                return
+            
+            for adjacent in graph[path[~0]]:
+                path.append(adjacent)
+                depth_first_search(path)
+                path.pop()
+
+        depth_first_search([0])
+        return paths
+
+    # tells how many paths exist from source to target
+    def allPathsSourceTarget(self, graph: List[List[int]]) -> List[List[int]]:
+        ways = [0 for _ in range(len(graph))]
+        ways[0] = 1
+        
+        for node in range(len(graph)):
+            for adjacent in graph[node]:
+                ways[adjacent] += ways[node]
+        
+        return ways[~0]
             
 '''
 
