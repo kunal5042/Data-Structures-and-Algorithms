@@ -1,4 +1,9 @@
+# Question: https://leetcode.com/problems/largest-divisible-subset/
+# Medium
+from typing import Optional, List
+
 class Solution:
+    # O(n*n) time and O(n) space
     def largestDivisibleSubset(self, nums: List[int]) -> List[int]:
         # every ith element in this array stores the size of the largest subset possible
         # with elements including and before this index
@@ -8,8 +13,7 @@ class Solution:
         # more informally, it helps us construct the largest subset in efficient way
         # by storing information of the index of the factor of current multiple
         # where jth index is the factor and ith index is the multiple in the logic down below
-        previous = [0 for idx in range(len(nums))]
-        previous[0] = -1
+        previous = [-1 for idx in range(len(nums))]
         
         # we ensure that the divisors are before the dividend
         # with the knowledge of below
@@ -41,3 +45,12 @@ class Solution:
             
         return largest_subset
         
+
+
+# January 01, 2023
+
+'''
+
+# Kunal Wadhwa
+
+'''
