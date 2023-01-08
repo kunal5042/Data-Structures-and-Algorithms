@@ -1,7 +1,10 @@
-# Question: from collections import defaultdict
-# Class Solution:
+# Question: https://leetcode.com/problems/most-profitable-path-in-a-tree/
+# Medium
 from typing import Optional, List
 
+from collections import defaultdict
+from functools import cache
+class Solution:
     # O(n) time and O(n) space
     def mostProfitablePath(self, edges: List[List[int]], bob: int, amount: List[int]) -> int:
         graph = defaultdict(list)
