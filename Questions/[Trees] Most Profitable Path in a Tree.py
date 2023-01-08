@@ -1,7 +1,6 @@
 # Question: https://leetcode.com/problems/most-profitable-path-in-a-tree/
 # Medium
 from typing import Optional, List
-
 from collections import defaultdict
 from functools import cache
 class Solution:
