@@ -2,7 +2,8 @@
 # Medium
 
 from typing import Optional, List
-
+from collections import defaultdict
+from heapq import heappop, heappush
 from collections import Counter
 class Solution:
     # O(n) Time and O(n) Space
@@ -35,6 +36,28 @@ class Solution:
             counts[ele] -= 1
             
         return True
+
+    # Solved recently
+    # O(n) time and O(n) space
+    def isPossible(self, nums: List[int]) -> bool:
+        hashmap = defaultdict(list)
+        
+        for num in nums:
+            if num not in hashmap:
+                heappush(hashmap[num+1], 1)
+            else:
+                length = heappop(hashmap[num])
+                if len(hashmap[num]) == 0:
+                    del hashmap[num]
+                heappush(hashmap[num+1], length+1)
+                
+        for _, lengths in hashmap.items():
+            for length in lengths:
+                if length < 3:
+                    return False
+                
+        return True
+
 '''
 
 # Kunal Wadhwa
