@@ -1,7 +1,7 @@
 # Question: https://leetcode.com/problems/stock-price-fluctuation/
 # Medium
 from typing import Optional, List
-
+from heapq import heappop, heappush
 class StockPrice:
     def __init__(self):
         self.hash = {}
