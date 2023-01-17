@@ -1,7 +1,7 @@
 # Question: https://leetcode.com/problems/find-the-winner-of-the-circular-game/
 # Medium
 from typing import Optional, List
-
+from collections import deque
 class Solution:
     # O(n*k) time and O(n) space
     def findTheWinner(self, n: int, k: int) -> int:
