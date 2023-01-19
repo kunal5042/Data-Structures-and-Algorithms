@@ -1,7 +1,8 @@
 # Question: https://leetcode.com/problems/distant-barcodes/
 # Medium
 from typing import Optional, List
-
+from heapq import heapify, heappop, heappush
+from collections import Counter
 class Solution:
     # O(n * log(n)) time and O(n) space
     def rearrangeBarcodes(self, barcodes: List[int]) -> List[int]:
