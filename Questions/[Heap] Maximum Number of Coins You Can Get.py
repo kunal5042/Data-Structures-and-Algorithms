@@ -1,7 +1,7 @@
 # Question: https://leetcode.com/problems/maximum-number-of-coins-you-can-get/
 # Medium
 from typing import Optional, List
-
+from heapq import heapify, heappop
 class Solution:
     # O(n*log(n)) time and O(n) space
     def maxCoins(self, piles: List[int]) -> int:
