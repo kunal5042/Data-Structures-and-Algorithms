@@ -1,7 +1,8 @@
 # Question: https://leetcode.com/problems/tweet-counts-per-frequency/
 # Medium
 from typing import Optional, List
-
+from collections import defaultdict
+import bisect
 class TweetCounts:
 
     def __init__(self):
