@@ -17,10 +17,6 @@ class Solution:
         return falling_time
             
         
-                    
-            
-
-
 # January 31, 2023
 
 '''
