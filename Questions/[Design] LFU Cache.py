@@ -1,7 +1,7 @@
 # Question: https://leetcode.com/problems/lfu-cache/
 # Hard
 from typing import Optional, List
-
+from collections import defaultdict
 class DLLN:
     def __init__(self, value, frequency=0):
         self.val = value
