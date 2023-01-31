@@ -1,6 +1,5 @@
 # Question: https://leetcode.com/problems/maximum-length-of-repeated-subarray/
 # Medium
-from typing import Optional, List
 
 from collections import defaultdict
 from typing import List, Optional
