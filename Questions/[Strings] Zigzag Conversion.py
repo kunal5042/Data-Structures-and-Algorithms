@@ -74,6 +74,28 @@ class Solution:
         result = ''
         for row in grid: result += ''.join(row)
         return result
+
+    def convert(self, s: str, numRows: int) -> str:
+        if numRows == 1: return s
+        
+        result = []
+        gap = 2 * (numRows - 1)
+        
+        for row in range(numRows):
+            idx = row
+            
+            while idx < len(s):
+                result.append(s[idx])
+                
+                if row != 0 and row != numRows-1:
+                    second = idx + (gap - (2 * row))
+                    
+                    if second < len(s):
+                        result.append(s[second])
+                        
+                idx += gap
+                
+        return ''.join(result)
 '''
 
 # Kunal Wadhwa
