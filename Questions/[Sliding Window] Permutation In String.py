@@ -2,7 +2,7 @@
 # Medium
 
 from typing import Optional, List
-
+from collections import Counter, defaultdict
 class Solution:
     # O(n) Time and O(n) Space
     def checkInclusion(self, s1: str, s2: str) -> bool:
@@ -39,6 +39,35 @@ class Solution:
             idx += 1
                     
         return False
+
+    # same idea, solved again
+    def checkInclusion(self, s1: str, s2: str) -> bool:
+        if len(s1) > len(s2): return False
+        
+        chars_s1 = Counter(s1)
+        substring = defaultdict(int)
+        
+        window_start = None
+        for window_end in range(len(s2)):
+            if s2[window_end] not in chars_s1:
+                window_start = None
+                substring = defaultdict(int)
+                continue
+
+            if window_start is None: window_start = window_end
+            substring[s2[window_end]] += 1
+            
+            if window_end - window_start + 1 == len(s1):
+                if substring == chars_s1:
+                    return True
+                
+                substring[s2[window_start]] -= 1
+                if substring[s2[window_start]] == 0:
+                    del substring[s2[window_start]]
+                
+                window_start += 1
+                
+        return substring == chars_s1
 '''
 
 # Kunal Wadhwa
