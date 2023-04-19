@@ -22,17 +22,11 @@ class Solution:
             # go in opposite direction
             if direction == 'left' and node.right:
                 helper(node.right, 'right', length+1)
+                helper(node.left, 'left', 1)
             
             if direction == 'right' and node.left:
                 helper(node.left, 'left', length+1)
-                
-            # go in same direction
-            if direction == 'left' and node.left:
-                helper(node.left, 'left', 1)
-                
-            if direction == 'right' and node.right:
                 helper(node.right, 'right', 1)
-            
             
         if root.left:
             helper(root.left, 'left', 1)
