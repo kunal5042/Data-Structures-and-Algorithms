@@ -35,8 +35,8 @@ class UnionFind:
     def get_rank(self, node):
         return self.rank[self.find(node)]
     
+from copy import deepcopy
 from typing import List
-import copy
 
 class Solution:
     #
@@ -53,7 +53,7 @@ class Solution:
             if _type != 3: continue
             required += int(uf_alice.union(node_u, node_v))
             
-        uf_bob = copy.deepcopy(uf_alice)
+        uf_bob = deepcopy(uf_alice)
         
         for (_type, node_u, node_v) in edges:
             if _type == 3: continue
