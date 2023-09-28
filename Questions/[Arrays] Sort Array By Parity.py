@@ -17,8 +17,12 @@ class Solution:
         # we are using two traversals in previous approach
         # can we make it one traversal?
         # we have to maintain the ordering of the elements
-        # any how we will need two traversals
+        # we can have a pointer to keep track of where even elements should go
+        # as we traverse we can swap even elements with this pointer and increment it
+        # that way as we traverse even elements are shifted to the front
+        # and odd elements still maintain their order
         
+        # apprach - 1
         result = []
         
         for ele in nums: 
@@ -27,7 +31,15 @@ class Solution:
         for ele in nums: 
             if ele % 2 != 0: result.append(ele)
                 
-        return result
+        # apprach - 2
+        even_ptr = 0
+        for idx, ele in enumerate(nums):
+            if nums[idx] % 2 == 0:
+                nums[idx], nums[even_ptr] = \
+                nums[even_ptr], nums[idx]
+                even_ptr += 1
+                
+        return nums
 
 
 # September 28, 2023
