@@ -534,6 +534,7 @@
 |529|Hard|Union Find|[ Checking Existence of Edge Length Limited Paths](https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths)|[Answer](https://github.com/kunal5042/Data-Structures-and-Algorithms/blob/main/Questions/[Union%20Find]%20Checking%20Existence%20of%20Edge%20Length%20Limited%20Paths.py)|
 |530|Medium|Union Find|[ Redundant Connection](https://leetcode.com/problems/redundant-connection)|[Answer](https://github.com/kunal5042/Data-Structures-and-Algorithms/blob/main/Questions/[Union%20Find]%20Redundant%20Connection.py)|
 |531|Hard|Union Find|[ Remove Max Number of Edges to Keep Graph Fully Traversable](https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable)|[Answer](https://github.com/kunal5042/Data-Structures-and-Algorithms/blob/main/Questions/[Union%20Find]%20Remove%20Max%20Number%20of%20Edges%20to%20Keep%20Graph%20Fully%20Traversable.py)|
+|532|Medium|Union Find|[ Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes)|[Answer](https://github.com/kunal5042/Data-Structures-and-Algorithms/blob/main/Questions/[Union%20Find]%20Validate%20Binary%20Tree%20Nodes.py)|
 ### <p align="center">AlgoExpert.io</p>
 | Q No.| Difficulty | Category | Question | Solution | 
 | :------: | --------- | ----------------- | :--------: | :---------: |
