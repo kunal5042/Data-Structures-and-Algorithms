@@ -12,7 +12,7 @@ class Solution:
                 return False
         return True
 
-    def checkArithmeticSubarrays(self, nums: List[int], lbound: List[int], rbound: List[int]) -> List[bool]:
+    def checkArithmeticSubarraysNaive(self, nums: List[int], lbound: List[int], rbound: List[int]) -> List[bool]:
         result = []
 
         for idx in range(len(lbound)):
@@ -21,6 +21,32 @@ class Solution:
             subarray = sorted(nums[left:right+1])
             result.append(self.isAirthmetic(subarray))
 
+        return result
+
+    def checkArithmeticSubarrays(self, nums: List[int], lbound: List[int], rbound: List[int]) -> List[bool]:
+        result = []
+
+        for idx in range(len(lbound)):
+            left = lbound[idx]
+            right = rbound[idx]
+            subarray = (nums[left:right+1])
+            sub_set = set(subarray)
+            sub_max = max(subarray)
+            sub_min = min(subarray)
+            if (sub_max - sub_min) % (len(subarray) - 1) != 0:
+                result.append(False)
+                continue
+            
+            sub_diff = (sub_max - sub_min) // (len(subarray) - 1)
+            cur = sub_min
+            flag = True
+            while cur != sub_max:
+                cur += sub_diff
+                if cur not in sub_set:
+                    flag = False
+                    break
+            result.append(flag)
+ 
         return result
 
 
