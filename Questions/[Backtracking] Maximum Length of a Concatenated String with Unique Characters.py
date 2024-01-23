@@ -1,35 +1,46 @@
 # Question: https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/
 # Medium
-from typing import Optional, List
+
+from typing import List
 
 class Solution:
-    # O(2^n) Time and O(n) Space
+    def __init__(self):
+        self.max_len = 0
+        self.arr = None
+        
+    def find_max_len(self, idx, rset):
+        self.max_len = max(
+            self.max_len,
+            len(rset)
+        )
+        if idx == len(self.arr):
+            return
+        
+        for jdx in range(idx, len(self.arr)):
+            intersection = self.arr[jdx].intersection(rset)
+            if len(intersection) == 0:
+                self.find_max_len(jdx+1, self.arr[jdx].union(rset))
+        
     def maxLength(self, arr: List[str]) -> int:
-        max_len = [0]
+        valid_indices = []
+        for idx, ele in enumerate(arr):
+            arr[idx] = set(ele)
+            if len(ele) == len(arr[idx]):
+                valid_indices.append(idx)
+                
+        final_arr = []
+        while len(valid_indices) != 0:
+            final_arr.append(arr[valid_indices.pop()])
+            
+        self.arr = final_arr
+        self.find_max_len(0, set())
+        return self.max_len
+            
+        
 
-        def helper(string, signature, idx):
-            # updation at every level
-            max_len[0] = max(len(string), max_len[0])
 
-            # base-case
-            if idx == len(arr):
-                return
+# January 23, 2024
 
-            # try all combinations
-            for jdx in range(idx, len(arr)):
-                cand_sign = set(arr[jdx])
-                # if candidate is not feasible
-                if len(cand_sign) != len(arr[jdx]):
-                    continue
-                    
-                # if no common chars
-                if len(signature.intersection(cand_sign)) == 0:
-                    concat_str = string + arr[jdx]
-                    concat_sign = set(concat_str)
-                    helper(concat_str, concat_sign, jdx+1)
-
-        helper('', set(), 0)
-        return max_len[0]
 '''
 
 # Kunal Wadhwa
