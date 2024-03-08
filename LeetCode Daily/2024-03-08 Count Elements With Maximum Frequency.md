@@ -1,3 +1,5 @@
+# Count Elements With Maximum Frequency
+
 #easy 
 
 You are given an array `nums` consisting of **positive** integers.
