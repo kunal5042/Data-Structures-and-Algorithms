@@ -90,8 +90,6 @@ class Trie:
         # If we reach the end of the prefix, the prefix is in the trie.
         return True
 
-# March 19, 2023
-
 '''
 
 # Kunal Wadhwa
